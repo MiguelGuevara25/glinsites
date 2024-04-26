@@ -4,7 +4,7 @@ import logo3 from "@/images/logo-3.png";
 import logo2 from "@/images/logo-dark.png";
 import logo1 from "@/images/logo.png";
 import logo6 from "@/images/update-01-10-2021/logo-6-dark.png";
-import logo7 from "@/images/update-01-10-2021/logo-7-dark.png";
+import logo7 from "../../public/images/logoGlinsiteHorizontalAzul.png";
 import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
 import logo5 from "@/images/update-09-06-2021/logo-5.png";
 import logo10 from "@/images/update-09-06-2021/logo-6.png";
@@ -13,120 +13,15 @@ import logo9 from "@/images/update-26-02-2021/logo-horizontal-portfolio.png";
 const home = {
   id: 1,
   name: "Home",
-  href: "/index-main",
-  subNavItems: [
-    {
-      id: 1,
-      name: "Home Style 01",
-      href: "/index-main",
-    },
-    {
-      id: 2,
-      name: "Home Style 02",
-      href: "/index-2",
-    },
-    {
-      id: 3,
-      name: "Home Style 03",
-      href: "/index-3",
-    },
-    {
-      id: 4,
-      name: "Home One Page",
-      href: "/one-page",
-    },
-    {
-      id: 5,
-      name: "Home Style 04",
-      href: "/index-4",
-    },
-    {
-      id: 6,
-      name: "Home Style 05",
-      href: "/index-5",
-    },
-    {
-      id: 7,
-      name: "Home Style 06",
-      href: "/index-6",
-      isNew: true,
-    },
-    {
-      id: 8,
-      name: "Home Style 07",
-      href: "/index-7",
-      isNew: true,
-    },
-    {
-      id: 9,
-      name: "Home Style 08",
-      href: "/index-8",
-      isNew: true,
-    },
-    {
-      id: 10,
-      name: "Portfolio Home",
-      href: "/index-portfolio",
-    },
-    {
-      id: 11,
-      name: "Portfolio Home 02",
-      href: "/index-portfolio-2",
-    },
-    {
-      id: 12,
-      name: "Portfolio Home 03",
-      href: "/index-portfolio-3",
-    },
-    {
-      id: 13,
-      name: "Parallax Home",
-      href: "/index-parallax",
-    },
-    {
-      id: 14,
-      name: "Dark Home",
-      href: "/index-dark",
-    },
-    {
-      id: 15,
-      name: "Boxed Home",
-      href: "/index-boxed",
-    },
-  ],
+  href: "/",
 };
 
 const navItemsTwo = [
   { ...home, href: "#home" },
   {
-    id: 2,
-    name: "About",
-    href: "#about",
-  },
-  {
-    id: 3,
-    name: "Services",
-    href: "#services",
-  },
-  {
     id: 4,
-    name: "Portfolio",
+    name: "Projects",
     href: "#portfolio",
-  },
-  {
-    id: 5,
-    name: "Team",
-    href: "#team",
-  },
-  {
-    id: 6,
-    name: "Testimonials",
-    href: "#testimonials",
-  },
-  {
-    id: 7,
-    name: "Blog",
-    href: "#blog",
   },
   {
     id: 8,

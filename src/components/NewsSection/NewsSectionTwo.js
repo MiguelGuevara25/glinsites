@@ -37,11 +37,11 @@ const { tagline, title, newses } = newsSectionTwo;
 
 const NewsSectionTwo = () => {
   return (
-    <section className="news-two">
+    <section className="news-two" id="portfolio">
       <div className="auto-container">
         <div className="sec-title-two text-center">
-          <p>{tagline}</p>
-          <h2>{title}</h2>
+          <p>our</p>
+          <h2>Projects</h2>
         </div>
         <Swiper {...options} className="thm-swiper__slider">
           <div className="swiper-wrapper">

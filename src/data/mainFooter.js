@@ -6,7 +6,7 @@ import logo7 from "@/images/update-01-10-2021/logo-7-light.png";
 import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
 import logo5 from "@/images/update-09-06-2021/logo-5-light.png";
 
-export const footer = { year: new Date().getFullYear(), author: "Linoor" };
+export const footer = { year: new Date().getFullYear(), author: "Glinsite" };
 
 export const mainFooterDemo = {
   ...footer,

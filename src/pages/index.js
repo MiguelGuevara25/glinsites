@@ -1,21 +1,31 @@
-import DemoFeatures from "@/components/DemoFeatures/DemoFeatures";
-import DemoGallery from "@/components/DemoGallery/DemoGallery";
-import DemoTop from "@/components/DemoTop/DemoTop";
-import DemoHeader from "@/components/Header/DemoHeader";
+import HeaderTwo from "@/components/Header/HeaderTwo";
+import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
-import MainFooterDemo from "@/components/MainFooter/MainFooterDemo";
+import FooterSeven from "@/components/MainFooter/FooterSeven";
+import NewsSectionTwo from "@/components/NewsSection/NewsSectionTwo";
 import Style from "@/components/Reuseable/Style";
-import React from "react";
+import SearchPopup from "@/components/SearchPopup/SearchPopup";
+import SliderSeven from "@/components/SliderSection/SliderSeven";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home 01">
-      <Style />
-      <DemoHeader />
-      <DemoTop />
-      <DemoGallery />
-      <DemoFeatures />
-      <MainFooterDemo />
+    <Layout pageTitle="Home">
+      <Style
+        font="Rubik, sans-serif"
+        bFont="Rubik, sans-serif"
+        black="#2a2833"
+        text="#74727a"
+        base="#ff4b82"
+        baseRgb="255, 75, 130"
+        scrollToTopColor="#fff"
+        blackRgb="42, 40, 51"
+      />
+      <HeaderTwo headerStyle="mainmenu-seven" header={7} />
+      <MobileMenu onePage/>
+      <SearchPopup />
+      <SliderSeven />
+      <NewsSectionTwo />
+      <FooterSeven />
     </Layout>
   );
 };

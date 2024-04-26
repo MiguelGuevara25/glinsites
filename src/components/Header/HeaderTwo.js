@@ -6,7 +6,7 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import NavItem from "./NavItem";
 
-const { navItems, title, logo7 } = headerData;
+const { navItemsTwo, title, logo7 } = headerData;
 
 const HeaderTwo = ({ headerStyle = "mainmenu-six", header = 6 }) => {
   const { scrollTop } = useScroll(120);
@@ -35,7 +35,7 @@ const HeaderTwo = ({ headerStyle = "mainmenu-six", header = 6 }) => {
               id="navbarSupportedContent"
             >
               <ul className="navigation clearfix">
-                {navItems.map((navItem) => (
+                {navItemsTwo.map((navItem) => (
                   <NavItem navItem={navItem} key={navItem.id} />
                 ))}
               </ul>

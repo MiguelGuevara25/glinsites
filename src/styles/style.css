@@ -21378,7 +21378,8 @@ img.lazy-image.loaded {
 }
 
 .slider-seven__shape-1 {
-  background-image: url(../assets/images/update-01-10-2021/shapes/slide-seven-shape-1-1.png);
+  /* background-image: url(../assets/images/update-01-10-2021/shapes/slide-seven-shape-1-1.png); */
+  background-image: url(/images/glinsiteShape.png);
   background-repeat: no-repeat;
   width: 326px;
   height: 419px;

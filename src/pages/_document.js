@@ -38,8 +38,13 @@ class MyDocument extends Document {
           <link rel="icon" href="favicon.ico" />
           <meta
             name="description"
-            content="Linoor is a multipurpose and powerful Digital Services Agency NextJS Template. The template is highly suitable template for companies that offer web design, web development, internet services, digital marketing, SEO services and all other internet marketing and services related agencies and businesses."
+            content="Glinsite is a company that creates websites for all types of businesses. We are a team of professionals who are ready to help you with your project."
           />
+
+          <meta name="author" content="Glinsite" />
+          <meta name="robots" value="index" />
+          <meta name="keywords" content="Websites, Glinseal, Web, Business, Work" />
+
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
