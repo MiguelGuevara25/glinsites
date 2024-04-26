@@ -10,19 +10,19 @@ const { year, author, logo7, about2, socials, links, email, phone, address } =
 const FooterSeven = () => {
   return (
     <>
-      <footer className="footer-seven">
+      <footer className="footer-seven" id="contact">
         <div className="auto-container">
           <Row>
             <Col md={6} lg={3}>
               <div className="footer-seven__widget footer-seven__about">
                 <a href="index-main.html">
-                  <Image src={logo7.src} width={134} alt="" />
+                  <Image src={logo7.src} width={200} alt="" />
                 </a>
                 <p className="footer-seven__about__text">
                   <a href={`tel:${phone.split(" ").join("-")}`}>{phone}</a>{" "}
                   <br />
                   <a href={`mailto:${email}`}>{email}</a> <br />
-                  <TextSplit text={address} />
+                  {/* <TextSplit text={address} /> */}
                 </p>
               </div>
             </Col>

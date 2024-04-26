@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import { Image } from "react-bootstrap";
 import { SwiperSlide } from "swiper/react";
 
@@ -16,7 +15,7 @@ const SingleNewsTwo = ({ news = {} }) => {
           />
         </div>
         <div className="news-two__content">
-          <ul className="list-unstyled news-two__meta">
+          {/* <ul className="list-unstyled news-two__meta">
             <li>
               <Link href="/blog-single">{date}</Link>
             </li>
@@ -25,7 +24,7 @@ const SingleNewsTwo = ({ news = {} }) => {
                 <a>{comments} Comments</a>
               </Link>
             </li>
-          </ul>
+          </ul> */}
           <h3>
             <Link href="/blog-single">{title}</Link>
           </h3>

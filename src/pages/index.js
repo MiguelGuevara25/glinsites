@@ -15,13 +15,13 @@ const Home = () => {
         bFont="Rubik, sans-serif"
         black="#2a2833"
         text="#74727a"
-        base="#ff4b82"
+        base="#004D80"
         baseRgb="255, 75, 130"
         scrollToTopColor="#fff"
         blackRgb="42, 40, 51"
       />
       <HeaderTwo headerStyle="mainmenu-seven" header={7} />
-      <MobileMenu onePage/>
+      <MobileMenu onePage />
       <SearchPopup />
       <SliderSeven />
       <NewsSectionTwo />
