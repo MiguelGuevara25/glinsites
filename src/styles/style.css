@@ -6468,10 +6468,10 @@ img.lazy-image.loaded {
   background-color: var(--thm-base) !important;
 }
 
-.news-two__image {
+/* .news-two__image {
   margin-bottom: 35px;
   background-color: var(--thm-base);
-}
+} */
 
 .news-two__image > img {
   width: 100%;
