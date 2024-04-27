@@ -1,10 +1,9 @@
 import { contactInfoTwo } from "@/data/contactSection";
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 
 const ContactInfoTwo = () => {
   return (
-    <section className="contact-info-two">
+    <section className="contact-info-two" id="contact">
       <div className="auto-container">
         <Row>
           {contactInfoTwo.map(({ id, icon, text, email, phone }) => (

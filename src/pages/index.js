@@ -6,6 +6,7 @@ import NewsSectionTwo from "@/components/NewsSection/NewsSectionTwo";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import SliderSeven from "@/components/SliderSection/SliderSeven";
+import ContactInfoTwo from "@/components/ContactSection/ContactInfoTwo";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <SearchPopup />
       <SliderSeven />
       <NewsSectionTwo />
+      <ContactInfoTwo />
       <FooterSeven />
     </Layout>
   );

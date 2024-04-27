@@ -68,48 +68,18 @@ export const mainFooter = {
   links: [
     {
       id: 1,
-      href: "/about",
-      title: "About",
+      href: "/",
+      title: "Home",
     },
     {
       id: 2,
-      href: "/team",
-      title: "Meet Our Team",
+      href: "#portfolio",
+      title: "Projects",
     },
     {
       id: 3,
-      href: "/portfolio",
-      title: "Our Portfolio",
-    },
-    {
-      id: 4,
-      href: "/blog",
-      title: "Latest News",
-    },
-    {
-      id: 5,
-      href: "/contact",
+      href: "#contact",
       title: "Contact",
-    },
-    {
-      id: 6,
-      href: "/faqs",
-      title: "Support",
-    },
-    {
-      id: 7,
-      href: "/faqs",
-      title: "Privacy Policy",
-    },
-    {
-      id: 8,
-      href: "/faqs",
-      title: "Terms of Use",
-    },
-    {
-      id: 9,
-      href: "/faqs",
-      title: "Help",
     },
   ],
   ...footer,

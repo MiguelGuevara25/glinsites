@@ -50,9 +50,9 @@ const SingleSliderSeven = ({ slider = {} }) => {
             ))}
           </h3>
           <p className="slider-seven__text">{text}</p>
-          <a href="#" className="slider-seven__btn thm-btn__seven">
+          {/* <a href="#" className="slider-seven__btn thm-btn__seven">
             Get Started
-          </a>
+          </a> */}
         </div>
       </div>
     </SwiperSlide>

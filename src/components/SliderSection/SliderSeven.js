@@ -16,9 +16,9 @@ const options = {
 const SliderSeven = () => {
   return (
     <section className="slider-seven" id="home">
-      {Array.from(Array(5)).map((_, i) => (
+      {/* {Array.from(Array(5)).map((_, i) => (
         <div key={i} className={`slider-seven__shape-${i + 1}`}></div>
-      ))}
+      ))} */}
 
       <Swiper {...options} className="thm-swiper__slider">
         <div className="swiper-wrapper">

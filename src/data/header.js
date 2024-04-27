@@ -143,23 +143,8 @@ const navItems = [
 
 export const socials = [
   {
-    id: 1,
-    icon: "fab fa-facebook-square",
-    href: "#",
-  },
-  {
-    id: 2,
-    icon: "fab fa-twitter",
-    href: "#",
-  },
-  {
     id: 3,
     icon: "fab fa-instagram",
-    href: "#",
-  },
-  {
-    id: 4,
-    icon: "fab fa-pinterest-p",
     href: "#",
   },
 ];

@@ -10,10 +10,10 @@ const { year, author, logo7, about2, socials, links, email, phone, address } =
 const FooterSeven = () => {
   return (
     <>
-      <footer className="footer-seven" id="contact">
+      <footer className="footer-seven">
         <div className="auto-container">
           <Row>
-            <Col md={6} lg={3}>
+            <Col md={6} lg={4}>
               <div className="footer-seven__widget footer-seven__about">
                 <a href="index-main.html">
                   <Image src={logo7.src} width={200} alt="" />
@@ -26,6 +26,15 @@ const FooterSeven = () => {
                 </p>
               </div>
             </Col>
+
+            <Col md={12} lg={6}>
+              <div className="footer-seven__widget footer-seven__social">
+                {socials.map(({ id, icon, href }) => (
+                  <a href={href} key={id} className={icon}></a>
+                ))}
+              </div>
+            </Col>
+
             <Col md={6} lg={2}>
               <div className="footer-seven__widget footer-seven__links">
                 <h3 className="footer-seven__title">Explore</h3>
@@ -38,7 +47,7 @@ const FooterSeven = () => {
                 </ul>
               </div>
             </Col>
-            <Col md={6} lg={2}>
+            {/* <Col md={6} lg={2}>
               <div className="footer-seven__widget footer-seven__links">
                 <h3 className="footer-seven__title">Services</h3>
                 <ul className="list-unstyled footer-seven__links__list">
@@ -61,14 +70,7 @@ const FooterSeven = () => {
                   ))}
                 </ul>
               </div>
-            </Col>
-            <Col md={12} lg={3}>
-              <div className="footer-seven__widget footer-seven__social">
-                {socials.map(({ id, icon, href }) => (
-                  <a href={href} key={id} className={icon}></a>
-                ))}
-              </div>
-            </Col>
+            </Col> */}
           </Row>
         </div>
       </footer>
