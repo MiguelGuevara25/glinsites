@@ -3,13 +3,13 @@ import { Image } from "react-bootstrap";
 import { SwiperSlide } from "swiper/react";
 
 const SingleNewsTwo = ({ news = {} }) => {
-  const { image, date, comments, title } = news;
+  const { image, date, comments, title, href } = news;
 
   return (
     <SwiperSlide>
       <div className="news-two__box">
         <div className="news-two__image">
-          <Image src="/images/projects/cyberborder.png" alt={title} />
+          <Image src={`/images/projects/${image}`} alt={title} />
         </div>
         <div className="news-two__content">
           {/* <ul className="list-unstyled news-two__meta">
@@ -23,7 +23,9 @@ const SingleNewsTwo = ({ news = {} }) => {
             </li>
           </ul> */}
           <h3>
-            <Link href="/blog-single">{title}</Link>
+            <a href={href} target="_blank">
+              {title}
+            </a>
           </h3>
         </div>
       </div>

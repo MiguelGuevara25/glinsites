@@ -65,45 +65,59 @@ export const newsSectionTwo = {
   newses: [
     {
       id: 1,
-      image: "blog-1-1.jpg",
+      image: "cyberborder.png",
       date: "06 Nov, 2020",
       comments: 3,
-      title: "Cyberborder Security",
+      title: "Cyberborder",
+      href: "https://www.cyberborder.com/"
     },
     {
       id: 2,
-      image: "blog-1-2.jpg",
+      image: "cfGandia.png",
       date: "06 Nov, 2020",
       comments: 3,
       title: "CF Gandía",
+      href: "https://clubdefutbolgandia.com/"
     },
     {
       id: 3,
-      image: "blog-1-1.jpg",
+      image: "getenergy.png",
       date: "06 Nov, 2020",
       comments: 3,
-      title: "Pristine Pool & Spa",
+      title: "Get Energy",
+      href: "https://www.getenergy.es/"
     },
     {
       id: 4,
-      image: "blog-1-2.jpg",
+      image: "hSeal.png",
       date: "06 Nov, 2020",
       comments: 3,
-      title: "What is the Better Way of Running a Business?",
+      title: "Hse Seal",
+      href: ""
     },
     {
       id: 5,
-      image: "blog-1-1.jpg",
+      image: "pristinePools.png",
       date: "06 Nov, 2020",
       comments: 3,
-      title: "What is the Better Way of Running a Business?",
+      title: "Pristine Pool & Spa",
+      href: "https://www.pristinepoolandspas.com/"
     },
     {
       id: 6,
-      image: "blog-1-2.jpg",
+      image: "glintrack.png",
       date: "06 Nov, 2020",
       comments: 3,
-      title: "What is the Better Way of Running a Business?",
+      title: "Glintrack",
+      href: ""
+    },
+    {
+      id: 7,
+      image: "glinseal.png",
+      date: "06 Nov, 2020",
+      comments: 3,
+      title: "Glinseal",
+      href: "https://glinseal.com/"
     },
   ],
 };
