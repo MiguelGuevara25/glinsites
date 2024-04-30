@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { forwardRef } from "react";
 import TextSplit from "../Reuseable/TextSplit";
+// import nose from "../../../public/images/sliderPrincipal.png"
 
 const SlideItemOne = ({ slide = {} }, ref) => {
   const { bg, subtitle, title } = slide;
@@ -11,12 +12,12 @@ const SlideItemOne = ({ slide = {} }, ref) => {
         className="image-layer"
         style={{
           backgroundImage: `url(${
-            require(`@/images/main-slider/${bg}`).default.src
+            require(`../../../public/images/${bg}`).default.src
           })`,
         }}
       ></div>
-      <div className="left-top-line"></div>
-      <div className="right-bottom-curve"></div>
+      {/* <div className="left-top-line"></div> */}
+      {/* <div className="right-bottom-curve"></div> */}
       <div className="right-top-curve"></div>
       <div className="auto-container">
         <div className="content-box">
@@ -26,14 +27,14 @@ const SlideItemOne = ({ slide = {} }, ref) => {
               <h1>
                 <TextSplit text={title} />
               </h1>
-              <div className="link-box">
+              {/* <div className="link-box">
                 <Link href="/about">
                   <a className="theme-btn btn-style-one">
                     <i className="btn-curve"></i>
                     <span className="btn-title">Discover More</span>
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

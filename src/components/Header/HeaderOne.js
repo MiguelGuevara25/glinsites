@@ -28,7 +28,6 @@ const HeaderOne = ({
   topBar = false,
   autoContainer = false,
   links = true,
-  rightMenu = false,
 }) => {
   const { scrollTop } = useScroll(120);
   const { toggleMenu, toggleSearch } = useRootContext();
@@ -131,23 +130,26 @@ const HeaderOne = ({
 
             {links && (
               <div className="other-links clearfix">
-                <div className="cart-btn">
+                <div className="cart-btn" style={{ color: "black" }}>
                   <Link href="/cart">
                     <a className="theme-btn cart-toggler">
                       <span className="flaticon-shopping-cart"></span>
                     </a>
                   </Link>
                 </div>
+
                 <div className="search-btn">
                   <button
                     onClick={toggleSearch}
                     type="button"
                     className="theme-btn search-toggler"
+                    style={{ color: "black" }}
                   >
                     <span className="flaticon-loupe"></span>
                   </button>
                 </div>
-                <div className="link-box">
+
+                {/* <div className="link-box" style={{ color: "black" }}>
                   <div className="call-us">
                     <a
                       className="link"
@@ -158,26 +160,7 @@ const HeaderOne = ({
                       <span className="number">{phone}</span>
                     </a>
                   </div>
-                </div>
-              </div>
-            )}
-            {rightMenu && (
-              <div className="right-menu">
-                <div className="search-btn">
-                  <button
-                    onClick={toggleSearch}
-                    type="button"
-                    className="theme-btn search-toggler"
-                  >
-                    <span className="flaticon-loupe"></span>
-                  </button>
-                </div>
-                <div onClick={toggleMenu} className="mobile-nav-toggler">
-                  <span className="bar"></span>
-                  <span className="bar"></span>
-                  <span className="bar"></span>
-                  <span className="txt">Menu</span>
-                </div>
+                </div> */}
               </div>
             )}
           </div>

@@ -40,8 +40,7 @@ const NewsSectionTwo = () => {
     <section className="news-two" id="portfolio">
       <div className="auto-container">
         <div className="sec-title-two text-center">
-          <p>our</p>
-          <h2>Projects</h2>
+          <h2>Check out our projects</h2>
         </div>
         <Swiper {...options} className="thm-swiper__slider">
           <div className="swiper-wrapper">

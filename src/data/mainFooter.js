@@ -36,34 +36,34 @@ export const mainFooter = {
   address3: "66 Mark Street, New Town DC 5752, Lo New York",
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
-  phone: "666 888 000",
+  phone: "+1 (631)256-0214",
   phone2: "+92 3333 222 000",
-  email: "needhelp@linoor.com",
+  email: "maxicarrion07@gmail.com",
   textBottom:
     "Sign up for our latest news & articles. We won’t give you spam mails.",
   subscribeText:
     "Register and get notified about the news & updates before it gets too late.",
   socials: [
-    {
-      id: 1,
-      href: "#",
-      icon: "fab fa-facebook-square",
-    },
-    {
-      id: 2,
-      href: "#",
-      icon: "fab fa-twitter",
-    },
+    // {
+    //   id: 1,
+    //   href: "#",
+    //   icon: "fab fa-facebook-square",
+    // },
+    // {
+    //   id: 2,
+    //   href: "#",
+    //   icon: "fab fa-twitter",
+    // },
     {
       id: 3,
       href: "#",
       icon: "fab fa-instagram",
     },
-    {
-      id: 4,
-      href: "#",
-      icon: "fab fa-pinterest-p",
-    },
+    // {
+    //   id: 4,
+    //   href: "#",
+    //   icon: "fab fa-pinterest-p",
+    // },
   ],
   links: [
     {

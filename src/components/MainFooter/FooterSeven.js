@@ -13,7 +13,7 @@ const FooterSeven = () => {
       <footer className="footer-seven">
         <div className="auto-container">
           <Row>
-            <Col md={6} lg={4}>
+            <Col md={12} lg={5}>
               <div className="footer-seven__widget footer-seven__about">
                 <a href="index-main.html">
                   <Image src={logo7.src} width={200} alt="" />
@@ -27,15 +27,7 @@ const FooterSeven = () => {
               </div>
             </Col>
 
-            <Col md={12} lg={6}>
-              <div className="footer-seven__widget footer-seven__social">
-                {socials.map(({ id, icon, href }) => (
-                  <a href={href} key={id} className={icon}></a>
-                ))}
-              </div>
-            </Col>
-
-            <Col md={6} lg={2}>
+            <Col md={12} lg={5}>
               <div className="footer-seven__widget footer-seven__links">
                 <h3 className="footer-seven__title">Explore</h3>
                 <ul className="list-unstyled footer-seven__links__list">
@@ -45,6 +37,14 @@ const FooterSeven = () => {
                     </li>
                   ))}
                 </ul>
+              </div>
+            </Col>
+
+            <Col md={12} lg={2}>
+              <div className="footer-seven__widget footer-seven__social">
+                {socials.map(({ id, icon, href }) => (
+                  <a href={href} key={id} className={icon}></a>
+                ))}
               </div>
             </Col>
             {/* <Col md={6} lg={2}>

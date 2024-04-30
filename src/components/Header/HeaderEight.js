@@ -6,7 +6,7 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import NavItem from "./NavItem";
 
-const { navItems, title, title3, logo8, socials, email, address, phone2 } =
+const { navItemsTwo, title, title3, logo8, socials, email, address, phone2 } =
   headerData;
 
 const HeaderEight = () => {
@@ -15,7 +15,7 @@ const HeaderEight = () => {
 
   return (
     <header className="header-eight">
-      <div className="header-eight__topbar">
+      {/* <div className="header-eight__topbar">
         <div className="auto-container">
           <ul className="header-eight__topbar__info">
             <li>
@@ -36,7 +36,7 @@ const HeaderEight = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <nav
         className={`mainmenu-eight main-header${
@@ -62,7 +62,7 @@ const HeaderEight = () => {
                 id="navbarSupportedContent"
               >
                 <ul className="navigation clearfix">
-                  {navItems.map((navItem) => (
+                  {navItemsTwo.map((navItem) => (
                     <NavItem navItem={navItem} key={navItem.id} />
                   ))}
                 </ul>

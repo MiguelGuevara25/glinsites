@@ -7,18 +7,23 @@ const whyUs = {
   features: [
     {
       id: 1,
-      title: "We think differently",
-      text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
+      title: "Multilingual",
+      text: "",
     },
     {
       id: 2,
-      title: "did High quality projects",
-      text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
+      title: "Professional",
+      text: "",
     },
     {
       id: 3,
-      title: "super expert team members",
-      text: "Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic tudin, lorem is simply free text quis bibendum.",
+      title: "Free Quotes",
+      text: "",
+    },
+    {
+      id: 3,
+      title: "Fast & Efficient",
+      text: "",
     },
   ],
 };

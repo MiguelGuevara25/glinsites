@@ -83,13 +83,13 @@ export const contactInfoTwo = [
   {
     id: 2,
     icon: "fa fa-envelope",
-    text: "needhelp@linoor.com",
+    text: "maxicarrion07@gmail.com",
     email: true,
   },
   {
     id: 3,
     icon: "fa fa-phone",
-    text: "+92 666 888 0000",
+    text: "+1 (631)256-0214",
     phone: true,
   },
 ];

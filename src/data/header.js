@@ -1,8 +1,8 @@
 import icon from "@/images/icons/close-1-1.png";
-import logo4 from "@/images/logo-2.png";
+import logo4 from "../../public/images/logoGlinsiteHorizontalBlanco.png";
 import logo3 from "@/images/logo-3.png";
 import logo2 from "@/images/logo-dark.png";
-import logo1 from "@/images/logo.png";
+import logo1 from "../../public/images/logoGlinsiteHorizontalAzul.png";
 import logo6 from "@/images/update-01-10-2021/logo-6-dark.png";
 import logo7 from "../../public/images/logoGlinsiteHorizontalAzul.png";
 import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
@@ -166,12 +166,12 @@ const headerData = {
   navItems,
   navItemsTwo,
   address: "Suite 20 Golden Street USA",
-  phone: "666 888 0000",
+  phone: "+1 (631)256-0214",
   phone2: "+ 92 666 888 0000",
-  email: "needhelp@linoor.com",
+  email: "maxicarrion07@gmail.com",
   icon,
   socials,
-  text: "Linoor is a premium Template for Digital Agencies, Start Ups, Small Business and a wide range of other agencies.",
+  text: "",
 };
 
 export default headerData;

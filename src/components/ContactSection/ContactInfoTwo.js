@@ -5,6 +5,9 @@ const ContactInfoTwo = () => {
   return (
     <section className="contact-info-two" id="contact">
       <div className="auto-container">
+        <div className="sec-title-two text-center">
+          <h2>Contact Us</h2>
+        </div>
         <Row>
           {contactInfoTwo.map(({ id, icon, text, email, phone }) => (
             <Col key={id} md={12} lg={4}>

@@ -13,7 +13,7 @@ const WhyUs = () => {
       <section className="why-us-section">
         <div className="auto-container">
           <Row className="clearfix">
-            <Col lg={6} md={12} sm={12} className="left-col">
+            {/* <Col lg={6} md={12} sm={12} className="left-col">
               <div className="inner animated fadeInLeft">
                 <div className="round-box">
                   <div className="image-box">
@@ -29,20 +29,20 @@ const WhyUs = () => {
                   </div>
                 </div>
               </div>
-            </Col>
-            <Col lg={6} md={12} sm={12} className="right-col">
+            </Col> */}
+            <Col lg={12} md={12} sm={12} className="right-col">
               <div className="inner">
                 <div className="sec-title">
                   <h2>
-                    {title}
-                    <span className="dot">.</span>
+                    Our benefits
+                    {/* <span className="dot">.</span> */}
                   </h2>
                 </div>
                 <div className="features">
                   {features.map(({ id, title, text }) => (
                     <div key={id} className="feature">
                       <div className="inner-box">
-                        <h6>{title}</h6>
+                        <h6 style={{ paddingTop: "15px" }}>{title}</h6>
                         <div className="text">{text}</div>
                       </div>
                     </div>

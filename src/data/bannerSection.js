@@ -3,45 +3,63 @@ import bg from "@/images/main-slider/banner-bg-shape-3.png";
 export const bannerTwo = [
   {
     id: 1,
-    bg: "2.jpg",
-    subtitle: "welcome to Linoor agency",
-    title: "Smart Web\nDesign Agency",
+    bg: "sliderPrincipal.jpeg",
+    subtitle: "Glinsite",
+    title: "Level Up Your Branding",
   },
   {
     id: 2,
-    bg: "1.jpg",
-    subtitle: "welcome to Linoor agency",
-    title: "Smart Web\nDesign Agency",
+    bg: "sliderPrincipal.jpeg",
+    subtitle: "Glinsite",
+    title: "Level Up Your Branding",
   },
   {
     id: 3,
-    bg: "2.jpg",
-    subtitle: "welcome to Linoor agency",
-    title: "Smart Web\nDesign Agency",
+    bg: "sliderPrincipal.jpeg",
+    subtitle: "Glinsite",
+    title: "Level Up Your Branding",
   },
+  {
+    id: 4,
+    bg: "sliderPrincipal.jpeg",
+    subtitle: "Glinsite",
+    title: "Level Up Your Branding",
+  },
+  // {
+  //   id: 2,
+  //   bg: "1.jpg",
+  //   subtitle: "welcome to Linoor agency",
+  //   title: "Smart Web\nDesign Agency",
+  // },
+  // {
+  //   id: 3,
+  //   bg: "2.jpg",
+  //   subtitle: "welcome to Linoor agency",
+  //   title: "Smart Web\nDesign Agency",
+  // },
 ];
 
 export const bannerOne = {
   bg,
-  dayRange: "mon - fri",
-  timeRange: "9am - 7pm",
-  socials: [
-    {
-      id: 1,
-      href: "#",
-      title: "Twitter",
-    },
-    {
-      id: 2,
-      href: "#",
-      title: "Facebook",
-    },
-    {
-      id: 3,
-      href: "#",
-      title: "Youtube",
-    },
-  ],
+  // dayRange: "mon - fri",
+  // timeRange: "9am - 7pm",
+  // socials: [
+  //   {
+  //     id: 1,
+  //     href: "#",
+  //     title: "Twitter",
+  //   },
+  //   {
+  //     id: 2,
+  //     href: "#",
+  //     title: "Facebook",
+  //   },
+  //   {
+  //     id: 3,
+  //     href: "#",
+  //     title: "Youtube",
+  //   },
+  // ],
   banners: bannerTwo,
   bannersTwo: [
     {
