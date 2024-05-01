@@ -29,7 +29,7 @@ const BannerThree = () => {
 
   return (
     <section className="banner-section banner-three">
-      <div className="left-based-text">
+      {/* <div className="left-based-text">
         <div className="base-inner">
           <div className="hours">
             <ul className="clearfix">
@@ -53,7 +53,7 @@ const BannerThree = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div
         className="bg-image"
