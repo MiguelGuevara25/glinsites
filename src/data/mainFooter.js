@@ -17,6 +17,26 @@ export const mainFooterDemo = {
   templateLink: "#",
 };
 
+export const mainFooterSpanish = {
+  links2: [
+    {
+      id: 1,
+      href: "/",
+      title: "Inicio",
+    },
+    {
+      id: 2,
+      href: "#portfolio",
+      title: "Proyectos",
+    },
+    {
+      id: 3,
+      href: "#contact",
+      title: "Contacto",
+    },
+  ],
+};
+
 export const mainFooter = {
   logo,
   logo3,

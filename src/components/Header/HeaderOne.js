@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 import NavItem from "./NavItem";
+import { useRouter } from "next/router";
 
 const {
   title,
@@ -51,34 +52,32 @@ const HeaderOne = ({
     }
   }
 
+  const navSpanish = [
+    {
+      id: 1,
+      name: "Inicio",
+      href: "/",
+    },
+    {
+      id: 2,
+      name: "Proyectos",
+      href: "#portfolio",
+    },
+    {
+      id: 3,
+      name: "Contacto",
+      href: "#contact",
+    },
+  ];
+
+  const { pathname } = useRouter();
+
   return (
     <header
       className={`main-header${
         scrollTop ? " fixed-header" : ""
       } ${headerStyle}`}
     >
-      {topBar && (
-        <div className="topbar-four">
-          <div className="auto-container">
-            <p>{title2}</p>
-            <div className="right-content">
-              <div className="phone">
-                <span className="icon flaticon-call"></span>
-                <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
-              </div>
-              <ul className="list-unstyled social-links">
-                {socials.map(({ id, icon, href }) => (
-                  <li key={id}>
-                    <a href={href}>
-                      <span className={icon}></span>
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      )}
       <div className="header-upper">
         <div className={autoContainer ? "inner-container clearfix" : ""}>
           <div
@@ -115,7 +114,28 @@ const HeaderOne = ({
                   }
                   id={autoContainer ? "" : "navbarSupportedContent"}
                 >
-                  <ul className="navigation clearfix">
+                  {pathname === "/es" ? (
+                    <ul className="navigation clearfix">
+                      {navSpanish.map((navItem) => (
+                        <NavItem
+                          navItem={navItem}
+                          key={navItem.id}
+                          onePage={onePage}
+                        />
+                      ))}
+                    </ul>
+                  ) : (
+                    <ul className="navigation clearfix">
+                      {newNavItems.map((navItem) => (
+                        <NavItem
+                          navItem={navItem}
+                          key={navItem.id}
+                          onePage={onePage}
+                        />
+                      ))}
+                    </ul>
+                  )}
+                  {/* <ul className="navigation clearfix">
                     {newNavItems.map((navItem) => (
                       <NavItem
                         navItem={navItem}
@@ -123,7 +143,7 @@ const HeaderOne = ({
                         onePage={onePage}
                       />
                     ))}
-                  </ul>
+                  </ul> */}
                 </div>
               </nav>
             </div>

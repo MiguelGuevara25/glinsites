@@ -2,18 +2,20 @@ import Link from "next/link";
 import React, { forwardRef } from "react";
 import TextSplit from "../Reuseable/TextSplit";
 // import nose from "../../../public/images/sliderPrincipal.png"
+import photoSlide from "../../../public/images/sliderPrincipal.jpeg";
+import { useRouter } from "next/router";
 
 const SlideItemOne = ({ slide = {} }, ref) => {
-  const { bg, subtitle, title } = slide;
+  const { bg, subtitle, title, title2 } = slide;
+  console.log(slide);
+  const { pathname } = useRouter();
 
   return (
     <div ref={ref} style={{ userSelect: "none" }} className="slide-item">
       <div
         className="image-layer"
         style={{
-          backgroundImage: `url(${
-            require(`../../../public/images/${bg}`).default.src
-          })`,
+          backgroundImage: `url(${photoSlide.src})`,
         }}
       ></div>
       {/* <div className="left-top-line"></div> */}
@@ -23,9 +25,12 @@ const SlideItemOne = ({ slide = {} }, ref) => {
         <div className="content-box">
           <div className="content">
             <div className="inner">
-              <div className="sub-title">{subtitle}</div>
+              <div className="sub-title">Glinsites</div>
               <h1>
-                <TextSplit text={title} />
+                {/* <TextSplit text={title} /> */}
+                {pathname === "/es"
+                  ? "Tu Marca al Siguiente Nivel"
+                  : "Level Up Your Branding"}
               </h1>
               {/* <div className="link-box">
                 <Link href="/about">

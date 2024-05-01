@@ -1,12 +1,15 @@
 import { contactInfoTwo } from "@/data/contactSection";
+import { useRouter } from "next/router";
 import { Col, Row } from "react-bootstrap";
 
 const ContactInfoTwo = () => {
+  const { pathname } = useRouter();
+
   return (
     <section className="contact-info-two" id="contact">
       <div className="auto-container">
         <div className="sec-title-two text-center">
-          <h2>Contact Us</h2>
+          {pathname === "/es" ? <h2>Contáctenos</h2> : <h2>Contact Us</h2>}
         </div>
         <Row>
           {contactInfoTwo.map(({ id, icon, text, email, phone }) => (

@@ -61,7 +61,7 @@ export default newsSection;
 
 export const newsSectionTwo = {
   tagline: "Our News",
-  title: "News & Articles",
+  title: "Check out our projects",
   newses: [
     {
       id: 1,
@@ -69,7 +69,7 @@ export const newsSectionTwo = {
       date: "06 Nov, 2020",
       comments: 3,
       title: "Cyberborder",
-      href: "https://www.cyberborder.com/"
+      href: "https://www.cyberborder.com/",
     },
     {
       id: 2,
@@ -77,7 +77,7 @@ export const newsSectionTwo = {
       date: "06 Nov, 2020",
       comments: 3,
       title: "CF Gandía",
-      href: "https://clubdefutbolgandia.com/"
+      href: "https://clubdefutbolgandia.com/",
     },
     {
       id: 3,
@@ -85,7 +85,7 @@ export const newsSectionTwo = {
       date: "06 Nov, 2020",
       comments: 3,
       title: "Get Energy",
-      href: "https://www.getenergy.es/"
+      href: "https://www.getenergy.es/",
     },
     {
       id: 4,
@@ -93,7 +93,7 @@ export const newsSectionTwo = {
       date: "06 Nov, 2020",
       comments: 3,
       title: "Hse Seal",
-      href: ""
+      href: "",
     },
     {
       id: 5,
@@ -101,7 +101,7 @@ export const newsSectionTwo = {
       date: "06 Nov, 2020",
       comments: 3,
       title: "Pristine Pool & Spa",
-      href: "https://www.pristinepoolandspas.com/"
+      href: "https://www.pristinepoolandspas.com/",
     },
     {
       id: 6,
@@ -109,7 +109,7 @@ export const newsSectionTwo = {
       date: "06 Nov, 2020",
       comments: 3,
       title: "Glintrack",
-      href: ""
+      href: "",
     },
     {
       id: 7,
@@ -117,7 +117,70 @@ export const newsSectionTwo = {
       date: "06 Nov, 2020",
       comments: 3,
       title: "Glinseal",
-      href: "https://glinseal.com/"
+      href: "https://glinseal.com/",
+    },
+  ],
+};
+
+export const newsSectionTwoSpanish = {
+  tagline: "Our News",
+  title2: "Mira nuestros proyectos",
+  newses2: [
+    {
+      id: 1,
+      image: "cyberborder.png",
+      date: "06 Nov, 2020",
+      comments: 3,
+      title: "Cyberborder",
+      href: "https://www.cyberborder.com/",
+    },
+    {
+      id: 2,
+      image: "cfGandia.png",
+      date: "06 Nov, 2020",
+      comments: 3,
+      title: "CF Gandía",
+      href: "https://clubdefutbolgandia.com/",
+    },
+    {
+      id: 3,
+      image: "getenergy.png",
+      date: "06 Nov, 2020",
+      comments: 3,
+      title: "Get Energy",
+      href: "https://www.getenergy.es/",
+    },
+    {
+      id: 4,
+      image: "hSeal.png",
+      date: "06 Nov, 2020",
+      comments: 3,
+      title: "Hse Seal",
+      href: "",
+    },
+    {
+      id: 5,
+      image: "pristinePools.png",
+      date: "06 Nov, 2020",
+      comments: 3,
+      title: "Pristine Pool & Spa",
+      href: "https://www.pristinepoolandspas.com/",
+    },
+    {
+      id: 6,
+      image: "glintrack.png",
+      date: "06 Nov, 2020",
+      comments: 3,
+      title: "Glintrack",
+      href: "",
+    },
+    {
+      id: 7,
+      image: "glinseal.png",
+      date: "06 Nov, 2020",
+      comments: 3,
+      title: "Glinseal",
+      href: "https://glinseal.com/",
     },
   ],
 };

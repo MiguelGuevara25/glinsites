@@ -7824,13 +7824,14 @@ img.lazy-image.loaded {
 .why-us-section .left-col .image-box img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%); */
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   border-radius: 50%;
+  border: 1px solid #f0f0f0;
 }
 
 .why-us-section .left-col .image-box:hover img {
@@ -7840,7 +7841,7 @@ img.lazy-image.loaded {
   filter: grayscale(0%);
 }
 
-.why-us-section .left-col .image-box:before {
+/* .why-us-section .left-col .image-box:before {
   content: "";
   position: absolute;
   left: 0;
@@ -7849,7 +7850,7 @@ img.lazy-image.loaded {
   height: 100%;
   background: url(../assets/images/icons/shape-1.png) left top no-repeat;
   z-index: 1;
-}
+} */
 
 .why-us-section .left-col .image-box:after {
   content: "";
@@ -7983,11 +7984,11 @@ img.lazy-image.loaded {
   top: 0px;
   width: 60px;
   height: 60px;
-  color: var(--thm-base);
+  color: #fff;
   font-size: 20px;
   line-height: 60px;
   text-align: center;
-  background: rgba(var(--thm-base-rgb), 0.2);
+  background: var(--thm-base);
   border-radius: 50%;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;

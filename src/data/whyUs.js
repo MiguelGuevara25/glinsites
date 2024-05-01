@@ -3,7 +3,7 @@ import image from "@/images/resource/featured-image-8.jpg";
 const whyUs = {
   image,
   videoId: "Get7rqXYrbQ",
-  title: "See Why you should choose linoor",
+  title: "Our benefits",
   features: [
     {
       id: 1,
@@ -23,6 +23,34 @@ const whyUs = {
     {
       id: 3,
       title: "Fast & Efficient",
+      text: "",
+    },
+  ],
+};
+
+export const whyUsSpanish = {
+  image,
+  videoId: "Get7rqXYrbQ",
+  title2: "Nuestros Beneficios",
+  features2: [
+    {
+      id: 1,
+      title: "Multilingüe",
+      text: "",
+    },
+    {
+      id: 2,
+      title: "Profesional",
+      text: "",
+    },
+    {
+      id: 3,
+      title: "Estimados gratuitos",
+      text: "",
+    },
+    {
+      id: 3,
+      title: "Rápido & Eficiente",
       text: "",
     },
   ],

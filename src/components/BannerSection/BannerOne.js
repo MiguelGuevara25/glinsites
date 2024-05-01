@@ -2,6 +2,7 @@ import { bannerOne } from "@/data/bannerSection";
 import dynamic from "next/dynamic";
 import React, { useRef } from "react";
 import SlideItemOne from "./SlideItemOne";
+import { useRouter } from "next/router";
 
 const TinySlider = dynamic(() => import("@/components/TinySlider/TinySlider"), {
   ssr: false,
@@ -23,10 +24,11 @@ const settings = {
   autoplayButtonOutput: false,
 };
 
-const { dayRange, timeRange, socials, banners } = bannerOne;
+const { dayRange, timeRange, socials, banners, banners2 } = bannerOne;
 
 const BannerOne = () => {
   const listRef = useRef(null);
+  const { pathname } = useRouter();
 
   return (
     <section className="banner-section banner-one">
@@ -56,11 +58,19 @@ const BannerOne = () => {
         </div>
       </div> */}
       <div className="banner-carousel">
-        <TinySlider options={settings} ref={listRef}>
-          {banners.map((slide) => (
-            <SlideItemOne key={slide.id} slide={slide} ref={listRef} />
-          ))}
-        </TinySlider>
+        {pathname === "/es" ? (
+          <TinySlider options={settings} ref={listRef}>
+            {banners2.map((slide) => (
+              <SlideItemOne key={slide.id} slide={slide} ref={listRef} />
+            ))}
+          </TinySlider>
+        ) : (
+          <TinySlider options={settings} ref={listRef}>
+            {banners.map((slide) => (
+              <SlideItemOne key={slide.id} slide={slide} ref={listRef} />
+            ))}
+          </TinySlider>
+        )}
         <div className="tns-controls">
           <button className="tns-prev">
             <span className="icon fa fa-angle-left"></span>

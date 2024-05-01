@@ -25,18 +25,33 @@ export const bannerTwo = [
     subtitle: "Glinsite",
     title: "Level Up Your Branding",
   },
-  // {
-  //   id: 2,
-  //   bg: "1.jpg",
-  //   subtitle: "welcome to Linoor agency",
-  //   title: "Smart Web\nDesign Agency",
-  // },
-  // {
-  //   id: 3,
-  //   bg: "2.jpg",
-  //   subtitle: "welcome to Linoor agency",
-  //   title: "Smart Web\nDesign Agency",
-  // },
+];
+
+export const bannerTwoSpanish = [
+  {
+    id2: 1,
+    bg2: "sliderPrincipal.jpeg",
+    subtitle2: "Glinsite",
+    title2: "Tu marca al siguiente nivel",
+  },
+  {
+    id2: 2,
+    bg2: "sliderPrincipal.jpeg",
+    subtitle2: "Glinsite",
+    title2: "Tu marca al siguiente nivel",
+  },
+  {
+    id2: 3,
+    bg2: "sliderPrincipal.jpeg",
+    subtitle2: "Glinsite",
+    title2: "Tu marca al siguiente nivel",
+  },
+  {
+    id2: 4,
+    bg2: "sliderPrincipal.jpeg",
+    subtitle2: "Glinsite",
+    title2: "Tu marca al siguiente nivel",
+  },
 ];
 
 export const bannerOne = {
@@ -61,6 +76,7 @@ export const bannerOne = {
   //   },
   // ],
   banners: bannerTwo,
+  banners2: bannerTwoSpanish,
   bannersTwo: [
     {
       id: 1,
