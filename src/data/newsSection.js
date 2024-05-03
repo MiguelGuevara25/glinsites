@@ -109,7 +109,7 @@ export const newsSectionTwo = {
       date: "06 Nov, 2020",
       comments: 3,
       title: "Glintrack",
-      href: "",
+      href: "https://glintrack.netlify.app/",
     },
     {
       id: 7,

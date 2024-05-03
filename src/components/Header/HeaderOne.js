@@ -159,13 +159,11 @@ const HeaderOne = ({
                 </div> */}
 
                 <div className="search-btn">
-                  <button
-                    // onClick={toggleSearch}
-                    type="button"
-                    className="theme-btn search-toggler"
-                  >
-                    <span className="flaticon-worldwide"></span>
-                  </button>
+                  <a href="/es">
+                    <button type="button" className="theme-btn search-toggler">
+                      <span className="flaticon-worldwide" style={{fontSize: "30px"}}></span>
+                    </button>
+                  </a>
                 </div>
 
                 {/* <div className="link-box" style={{ color: "black" }}>
