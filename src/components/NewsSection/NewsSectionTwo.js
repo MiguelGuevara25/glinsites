@@ -34,7 +34,7 @@ const options = {
   },
 };
 
-const { tagline, title, newses } = newsSectionTwo;
+const { title, newses } = newsSectionTwo;
 const { title2, newses2 } = newsSectionTwoSpanish;
 
 const NewsSectionTwo = () => {

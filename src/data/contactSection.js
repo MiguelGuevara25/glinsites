@@ -75,11 +75,11 @@ export const contactSectionTwo = {
 };
 
 export const contactInfoTwo = [
-  {
-    id: 1,
-    icon: "fa fa-map-marker-alt",
-    text: "66 Broklyn Street, USA",
-  },
+  // {
+  //   id: 1,
+  //   icon: "fa fa-map-marker-alt",
+  //   text: "66 Broklyn Street, USA",
+  // },
   {
     id: 2,
     icon: "fa fa-envelope",

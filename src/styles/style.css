@@ -702,8 +702,12 @@ img {
   margin: 0;
   background: none;
   line-height: 32px;
-  color: #ffffff;
+  color: white;
   cursor: pointer;
+}
+
+.main-header.fixed-header .other-links .search-btn button {
+  color: #2a2833;
 }
 
 .main-header .other-links .search-btn button span {
@@ -823,7 +827,7 @@ img {
 
 .header-style-two .main-menu .navigation > li.current > a,
 .header-style-two.fixed-header .main-menu .navigation > li > a:hover {
-  color: white;
+  color: var(--thm-base);
 }
 
 .header-style-two.fixed-header .main-menu .navigation > li > a {

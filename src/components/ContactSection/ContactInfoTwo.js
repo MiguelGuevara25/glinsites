@@ -13,7 +13,7 @@ const ContactInfoTwo = () => {
         </div>
         <Row>
           {contactInfoTwo.map(({ id, icon, text, email, phone }) => (
-            <Col key={id} md={12} lg={4}>
+            <Col key={id} md={12} lg={6}>
               <div className="contact-info-two__card animated fadeInUp">
                 <i className={icon}></i>
                 <a

@@ -17,7 +17,7 @@ const home = {
 };
 
 const navItemsTwo = [
-  { ...home, href: "#home" },
+  { ...home, href: "/" },
   {
     id: 4,
     name: "Projects",

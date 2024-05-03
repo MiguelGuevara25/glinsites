@@ -150,22 +150,21 @@ const HeaderOne = ({
 
             {links && (
               <div className="other-links clearfix">
-                <div className="cart-btn" style={{ color: "black" }}>
+                {/* <div className="cart-btn" style={{ color: "black" }}>
                   <Link href="/cart">
                     <a className="theme-btn cart-toggler">
                       <span className="flaticon-shopping-cart"></span>
                     </a>
                   </Link>
-                </div>
+                </div> */}
 
                 <div className="search-btn">
                   <button
-                    onClick={toggleSearch}
+                    // onClick={toggleSearch}
                     type="button"
                     className="theme-btn search-toggler"
-                    style={{ color: "black" }}
                   >
-                    <span className="flaticon-loupe"></span>
+                    <span className="flaticon-worldwide"></span>
                   </button>
                 </div>
 
