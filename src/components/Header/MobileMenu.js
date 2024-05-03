@@ -1,7 +1,6 @@
 import NavItem from "@/components/Header/NavItem";
 import { useRootContext } from "@/context/context";
 import headerData from "@/data/header";
-import React from "react";
 import { Image } from "react-bootstrap";
 
 const { icon, text, email, phone, socials, navItems, navItemsTwo } = headerData;

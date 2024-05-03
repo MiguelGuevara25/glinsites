@@ -73,10 +73,10 @@ const BannerOne = () => {
         )}
         <div className="tns-controls">
           <button className="tns-prev">
-            <span className="icon fa fa-angle-left"></span>
+            {/* <span className="icon fa fa-angle-left"></span> */}
           </button>
           <button className="tns-next">
-            <span className="icon fa fa-angle-right"></span>
+            {/* <span className="icon fa fa-angle-right"></span> */}
           </button>
         </div>
       </div>

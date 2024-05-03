@@ -21,7 +21,7 @@ const whyUs = {
       text: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "Fast & Efficient",
       text: "",
     },
@@ -49,7 +49,7 @@ export const whyUsSpanish = {
       text: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "Rápido & Eficiente",
       text: "",
     },

@@ -7,7 +7,6 @@ import { useRouter } from "next/router";
 
 const SlideItemOne = ({ slide = {} }, ref) => {
   const { bg, subtitle, title, title2 } = slide;
-  console.log(slide);
   const { pathname } = useRouter();
 
   return (

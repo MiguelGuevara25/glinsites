@@ -10,9 +10,7 @@ const { title2, features2 } = whyUsSpanish;
 const WhyUs = () => {
   const [isOpen, setOpen] = useState(false);
   const { pathname } = useRouter();
-
-  console.log(pathname);
-
+  
   return (
     <>
       <section className="why-us-section">
