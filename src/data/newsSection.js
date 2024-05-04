@@ -93,7 +93,7 @@ export const newsSectionTwo = {
       date: "06 Nov, 2020",
       comments: 3,
       title: "Hse Seal",
-      href: "https://hseseal.netlify.app/",
+      href: "https://hseseal.com/",
     },
     {
       id: 5,

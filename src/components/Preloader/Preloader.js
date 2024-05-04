@@ -1,5 +1,4 @@
-import bg1 from "@/images/icons/preloader.png";
-import React from "react";
+import bg1 from "../../../public/images/loader.png";
 
 const Preloader = ({ loading, bg = bg1, className = "" }) => {
   return (

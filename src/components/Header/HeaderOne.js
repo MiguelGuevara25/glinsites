@@ -159,11 +159,35 @@ const HeaderOne = ({
                 </div> */}
 
                 <div className="search-btn">
-                  <a href="/es">
-                    <button type="button" className="theme-btn search-toggler">
-                      <span className="flaticon-worldwide" style={{fontSize: "30px"}}></span>
-                    </button>
-                  </a>
+                  <ul>
+                    <li>
+                      <a href={pathname === "/es" ? "/" : "/es"}>
+                        <button
+                          type="button"
+                          className="theme-btn search-toggler"
+                        >
+                          <span
+                            className="flaticon-worldwide"
+                            style={{ fontSize: "30px" }}
+                          ></span>
+                        </button>
+                      </a>
+
+                      {pathname === "/es" ? (
+                        <ul className="list__language">
+                          <li>
+                            <a href="/">Inglés</a>
+                          </li>
+                        </ul>
+                      ) : (
+                        <ul className="list__language">
+                          <li>
+                            <a href="/es">Spanish</a>
+                          </li>
+                        </ul>
+                      )}
+                    </li>
+                  </ul>
                 </div>
 
                 {/* <div className="link-box" style={{ color: "black" }}>

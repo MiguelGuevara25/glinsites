@@ -7,24 +7,24 @@ export const bannerTwo = [
     subtitle: "Glinsite",
     title: "Level Up Your Branding",
   },
-  {
-    id: 2,
-    bg: "sliderPrincipal.jpeg",
-    subtitle: "Glinsite",
-    title: "Level Up Your Branding",
-  },
-  {
-    id: 3,
-    bg: "sliderPrincipal.jpeg",
-    subtitle: "Glinsite",
-    title: "Level Up Your Branding",
-  },
-  {
-    id: 4,
-    bg: "sliderPrincipal.jpeg",
-    subtitle: "Glinsite",
-    title: "Level Up Your Branding",
-  },
+  // {
+  //   id: 2,
+  //   bg: "sliderPrincipal.jpeg",
+  //   subtitle: "Glinsite",
+  //   title: "Level Up Your Branding",
+  // },
+  // {
+  //   id: 3,
+  //   bg: "sliderPrincipal.jpeg",
+  //   subtitle: "Glinsite",
+  //   title: "Level Up Your Branding",
+  // },
+  // {
+  //   id: 4,
+  //   bg: "sliderPrincipal.jpeg",
+  //   subtitle: "Glinsite",
+  //   title: "Level Up Your Branding",
+  // },
 ];
 
 export const bannerTwoSpanish = [
@@ -34,24 +34,24 @@ export const bannerTwoSpanish = [
     subtitle2: "Glinsite",
     title2: "Tu marca al siguiente nivel",
   },
-  {
-    id2: 2,
-    bg2: "sliderPrincipal.jpeg",
-    subtitle2: "Glinsite",
-    title2: "Tu marca al siguiente nivel",
-  },
-  {
-    id2: 3,
-    bg2: "sliderPrincipal.jpeg",
-    subtitle2: "Glinsite",
-    title2: "Tu marca al siguiente nivel",
-  },
-  {
-    id2: 4,
-    bg2: "sliderPrincipal.jpeg",
-    subtitle2: "Glinsite",
-    title2: "Tu marca al siguiente nivel",
-  },
+  // {
+  //   id2: 2,
+  //   bg2: "sliderPrincipal.jpeg",
+  //   subtitle2: "Glinsite",
+  //   title2: "Tu marca al siguiente nivel",
+  // },
+  // {
+  //   id2: 3,
+  //   bg2: "sliderPrincipal.jpeg",
+  //   subtitle2: "Glinsite",
+  //   title2: "Tu marca al siguiente nivel",
+  // },
+  // {
+  //   id2: 4,
+  //   bg2: "sliderPrincipal.jpeg",
+  //   subtitle2: "Glinsite",
+  //   title2: "Tu marca al siguiente nivel",
+  // },
 ];
 
 export const bannerOne = {

@@ -3,6 +3,7 @@ import React, { forwardRef } from "react";
 import TextSplit from "../Reuseable/TextSplit";
 // import nose from "../../../public/images/sliderPrincipal.png"
 import photoSlide from "../../../public/images/sliderPrincipal.jpeg";
+import photoSlideEffect from "../../../public/images/logoGlinsiteHorizontalBlanco.png";
 import { useRouter } from "next/router";
 
 const SlideItemOne = ({ slide = {} }, ref) => {
@@ -24,8 +25,9 @@ const SlideItemOne = ({ slide = {} }, ref) => {
         <div className="content-box">
           <div className="content">
             <div className="inner">
-              <div className="sub-title">Glinsites</div>
-              <h1>
+              {/* <div className="sub-title">Glinsites</div> */}
+              <img src={photoSlideEffect.src} />
+              <h1 style={{ textAlign: "center", paddingTop: "50px" }}>
                 {/* <TextSplit text={title} /> */}
                 {pathname === "/es"
                   ? "Tu Marca al Siguiente Nivel"
