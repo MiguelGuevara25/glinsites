@@ -11,6 +11,7 @@ import HeaderEight from "@/components/Header/HeaderEight";
 import HeaderOne from "@/components/Header/HeaderOne";
 import BannerOne from "@/components/BannerSection/BannerOne";
 import WhyUs from "@/components/WhyUs/WhyUs";
+import FeaturedSection from "@/components/FeaturedSection/FeaturedSection";
 
 const HomeEnglish = () => {
   return (
@@ -31,6 +32,7 @@ const HomeEnglish = () => {
       <SearchPopup />
       {/* <SliderSeven /> */}
       <BannerOne />
+      <FeaturedSection />
       <WhyUs />
       <NewsSectionTwo />
       <ContactInfoTwo />

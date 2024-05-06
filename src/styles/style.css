@@ -24164,11 +24164,35 @@ img.lazy-image.loaded {
 }
 
 .imagen__effect__principal {
+  -webkit-animation: fadeIn 1.3s ease;
   animation: fadeIn 1.3s ease;
 }
 
 .titulo__effect__principal{
+  -webkit-animation: otroEfecto 1.3s ease;
   animation: otroEfecto 1.3s ease;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    -webkit-transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes otroEfecto {
+  0% {
+    -webkit-transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
