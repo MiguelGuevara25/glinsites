@@ -24162,3 +24162,33 @@ img.lazy-image.loaded {
   display: block;
   opacity: 1;
 }
+
+.imagen__effect__principal {
+  animation: fadeIn 1.3s ease;
+}
+
+.titulo__effect__principal{
+  animation: otroEfecto 1.3s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes otroEfecto {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

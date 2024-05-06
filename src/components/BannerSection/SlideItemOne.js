@@ -26,8 +26,14 @@ const SlideItemOne = ({ slide = {} }, ref) => {
           <div className="content">
             <div className="inner">
               {/* <div className="sub-title">Glinsites</div> */}
-              <img src={photoSlideEffect.src} />
-              <h1 style={{ textAlign: "center", paddingTop: "50px" }}>
+              <img
+                src={photoSlideEffect.src}
+                className="imagen__effect__principal"
+              />
+              <h1
+                style={{ textAlign: "center", paddingTop: "50px" }}
+                className="titulo__effect__principal"
+              >
                 {/* <TextSplit text={title} /> */}
                 {pathname === "/es"
                   ? "Tu Marca al Siguiente Nivel"
