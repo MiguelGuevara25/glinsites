@@ -6,7 +6,7 @@ const { image, title, text, features } = featuredSection;
 
 const FeaturedSection = ({ className = "" }) => {
   return (
-    <section className={`featured-section ${className}`}>
+    <section className={`featured-section ${className}`} style={{paddingTop: "100px", paddingBottom: "50px"}}>
       <div className="auto-container">
         <Row className="row clearfix">
           <Col lg={6} md={12} sm={12} className="left-col">
@@ -21,21 +21,8 @@ const FeaturedSection = ({ className = "" }) => {
               <div className="sec-title">
                 <h2>
                   {title}
-                  <span className="dot">.</span>
                 </h2>
                 <div className="lower-text">{text}</div>
-              </div>
-              <div className="features">
-                <Row className="clearfix">
-                  {features.map(({ id, title, text }) => (
-                    <Col key={id} md={6} sm={12} className="feature">
-                      <div className="inner-box">
-                        <h6>{title}</h6>
-                        <div className="text">{text}</div>
-                      </div>
-                    </Col>
-                  ))}
-                </Row>
               </div>
             </div>
           </Col>

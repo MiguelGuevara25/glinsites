@@ -2,8 +2,8 @@ import image from "@/images/resource/featured-image-7.jpg";
 
 const featuredSection = {
   image,
-  title: "MAKE WEBSITES WITHOUT TOUCHING the CODing",
-  text: "We are committed to providing our customers with exceptional service while offering our employees the best training. There are many variations of passages of lorem ipsum is simply free text available in the market, but the majority have suffered time.",
+  title: "Bienvenido a Glinsites",
+  text: "En un mundo donde la presencia digital es vital, nosotros te ofrecemos la llave hacia el éxito en línea. Somos un equipo apasionado de desarrolladores web, expertos en convertir ideas en experiencias digitales excepcionales. Desde la conceptualización hasta la implementación, nuestra experiencia y creatividad se combinan para dar vida a tus proyectos en la web. Ya sea que necesites una página web elegante y funcional o una plataforma compleja a medida, estamos aquí para hacerlo realidad. Déjanos llevarte de la mano en este emocionante viaje digital. Tu visión, nuestra pasión. Juntos, hagamos que tu presencia en línea destaque. ¡Comienza tu viaje con nosotros hoy mismo!",
   features: [
     {
       id: 1,
