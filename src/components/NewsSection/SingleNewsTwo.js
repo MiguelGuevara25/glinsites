@@ -9,7 +9,11 @@ const SingleNewsTwo = ({ news = {} }) => {
     <SwiperSlide>
       <div className="news-two__box">
         <div className="news-two__image">
-          <a href={href} target="_blank">
+          <a
+            href={href}
+            target="_blank"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <Image src={`/images/projects/${image}`} alt={title} />
           </a>
         </div>
