@@ -12,6 +12,7 @@ import HeaderOne from "@/components/Header/HeaderOne";
 import BannerOne from "@/components/BannerSection/BannerOne";
 import WhyUs from "@/components/WhyUs/WhyUs";
 import FeaturedSection from "@/components/FeaturedSection/FeaturedSection";
+import DemoGallery from "@/components/DemoGallery/DemoGallery";
 
 const Home = () => {
   return (
@@ -27,13 +28,14 @@ const Home = () => {
         blackRgb="42, 40, 51"
       />
       {/* <HeaderTwo headerStyle="mainmenu-seven" header={7} /> */}
-      <HeaderOne headerStyle="header-style-two" logo={4} onePage/>
+      <HeaderOne headerStyle="header-style-two" logo={4} onePage />
       <MobileMenu onePage />
       <SearchPopup />
       {/* <SliderSeven /> */}
       <BannerOne />
       <FeaturedSection />
       <WhyUs />
+      <DemoGallery />
       <NewsSectionTwo />
       <ContactInfoTwo />
       <FooterSeven />
