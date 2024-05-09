@@ -27,7 +27,7 @@ const FeaturedSection = ({ className = "" }) => {
           </Col>
           <Col lg={6} md={12} sm={12} className="right-col">
             <div className="inner">
-              <div className="sec-title">
+              <div className="sec-title-two">
                 <h2>{pathname === "/es" ? title : titleEnglish}</h2>
                 <div className="lower-text">
                   {pathname === "/es" ? text : textEnglish}

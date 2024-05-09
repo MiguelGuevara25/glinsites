@@ -13535,7 +13535,7 @@ img.lazy-image.loaded {
   color: var(--thm-base);
 }
 
-.portfolio-masonary__box-content {
+/* .portfolio-masonary__box-content {
   position: absolute;
   top: 0;
   left: 0;
@@ -13564,7 +13564,7 @@ img.lazy-image.loaded {
   transition: transform 500ms ease, opacity 500ms ease;
   transition: transform 500ms ease, opacity 500ms ease,
     -webkit-transform 500ms ease;
-}
+} */
 
 .portfolio-masonary__box:hover .portfolio-masonary__box-content {
   opacity: 1;
@@ -14412,7 +14412,7 @@ img.lazy-image.loaded {
 
 /* demo gallery */
 .demo-gallery {
-  padding-top: 120px;
+  /* padding-top: 120px; */
   padding-bottom: 100px;
 }
 

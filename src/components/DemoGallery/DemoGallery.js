@@ -24,7 +24,7 @@ const DemoGallery = () => {
   return (
     <section className="portfolio-masonary demo-gallery">
       <div className="auto-container">
-        <div className="sec-title text-center">
+        <div className="sec-title-two text-center">
           <h2>{title}</h2>
         </div>
         <div className="portfolio-masonary__filter-wrapper mixitup-gallery justify-content-center">
@@ -48,14 +48,14 @@ const DemoGallery = () => {
           ))}
         </Row>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <Link href="/about">
             <a className="theme-btn btn-style-one">
               <i className="btn-curve"></i>
               <span className="btn-title">Discover More</span>
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );

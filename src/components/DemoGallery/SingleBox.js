@@ -24,7 +24,7 @@ const SingleBox = ({ box = {} }) => {
               objectPosition: "top left",
             }}
           />
-          <div className="portfolio-masonary__box-content">
+          {/* <div className="portfolio-masonary__box-content">
             <Link href={href}>
               <a className="link">
                 <i className="flaticon-right-arrow"></i>
@@ -34,7 +34,7 @@ const SingleBox = ({ box = {} }) => {
             <h4>
               <Link href={href}>{title}</Link>
             </h4>
-          </div>
+          </div> */}
         </div>
       </div>
     </Col>
