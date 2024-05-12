@@ -3,6 +3,7 @@ import bg from "@/images/main-slider/banner-bg-shape-3.png";
 export const bannerTwo = [
   {
     id: 1,
+    // bg: "1.jpg",
     bg: "sliderPrincipal.jpeg",
     subtitle: "Glinsite",
     title: "Level Up Your Branding",
