@@ -23,7 +23,7 @@ const Home4 = () => {
         bFont="Barlow, sans-serif"
         black="#18212e"
         text="#697280"
-        base="#ed2c41"
+        base="#004D80"
         baseRgb="237, 44, 65"
       />
       <HeaderOne

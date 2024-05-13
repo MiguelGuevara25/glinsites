@@ -19,7 +19,7 @@ const Home5 = () => {
         bFont="Jost, sans-serif"
         black="#1e1e1e"
         text="#929292"
-        base="#e43434"
+        base="#004D80"
         baseRgb="228, 52, 52"
         scrollToTopColor="#fff"
         scrollToTopBg="var(--thm-black)"

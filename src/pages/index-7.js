@@ -26,7 +26,7 @@ const Home7 = () => {
         bFont="Rubik, sans-serif"
         black="#2a2833"
         text="#74727a"
-        base="#ff4b82"
+        base="#004D80"
         baseRgb="255, 75, 130"
         scrollToTopColor="#fff"
         blackRgb="42, 40, 51"

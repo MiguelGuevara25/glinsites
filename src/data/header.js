@@ -1,14 +1,14 @@
 import icon from "@/images/icons/close-1-1.png";
 import logo4 from "../../public/images/logoGlinsiteHorizontalBlanco.png";
-import logo3 from "@/images/logo-3.png";
-import logo2 from "@/images/logo-dark.png";
+import logo3 from "../../public/images/logoGlinsiteHorizontalBlanco.png";
+import logo2 from "../../public/images/logoGlinsiteHorizontalAzul.png";
 import logo1 from "../../public/images/logoGlinsiteHorizontalAzul.png";
-import logo6 from "@/images/update-01-10-2021/logo-6-dark.png";
+import logo6 from "../../public/images/logoGlinsiteHorizontalAzul.png";
 import logo7 from "../../public/images/logoGlinsiteHorizontalAzul.png";
-import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
-import logo5 from "@/images/update-09-06-2021/logo-5.png";
-import logo10 from "@/images/update-09-06-2021/logo-6.png";
-import logo9 from "@/images/update-26-02-2021/logo-horizontal-portfolio.png";
+import logo8 from "../../public/images/logoGlinsiteHorizontalBlanco.png";
+import logo5 from "../../public/images/logoGlinsiteHorizontalAzul.png";
+import logo10 from "../../public/images/logoGlinsiteVerticalBlanco.png";
+import logo9 from "../../public/images/logoGlinsiteHorizontalBlanco.png";
 
 const home = {
   id: 1,

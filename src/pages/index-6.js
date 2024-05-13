@@ -27,7 +27,7 @@ const Home6 = () => {
         bFont="Kumbh Sans, sans-serif"
         black="#1a3546"
         text="#6b7881"
-        base="#41b974"
+        base="#004D80"
         baseRgb="65, 185, 116"
         scrollToTopColor="#fff"
       />

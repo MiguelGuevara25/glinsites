@@ -13,7 +13,7 @@ const PortfolioHome3 = () => {
       <Style
         font="Roboto Condensed"
         bFont="Roboto Condensed"
-        base="#2398f9"
+        base="#004D80"
         baseRgb="35, 152, 249"
         black="#1f1f1f"
         text="#838383"
