@@ -1,6 +1,7 @@
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
+import FooterSeven from "@/components/MainFooter/FooterSeven";
 import MainFooterThree from "@/components/MainFooter/MainFooterThree";
 import PortfolioMasonary from "@/components/PortfolioMasonary/PortfolioMasonary";
 import Style from "@/components/Reuseable/Style";
@@ -21,7 +22,7 @@ const HomePortfolio = () => {
       <SearchPopup />
       <PortfolioMasonary />
       <SponsorsSection className="sponsors-section__dark sponsors-section__has-border-top" />
-      <MainFooterThree />
+      <FooterSeven />
     </Layout>
   );
 };

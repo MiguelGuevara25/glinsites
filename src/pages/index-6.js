@@ -5,6 +5,7 @@ import HeaderSix from "@/components/Header/HeaderSix";
 import HeaderTwo from "@/components/Header/HeaderTwo";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
+import FooterSeven from "@/components/MainFooter/FooterSeven";
 import FooterSix from "@/components/MainFooter/FooterSix";
 import MapSix from "@/components/MapSection/MapSix";
 import BlogSix from "@/components/NewsSection/BlogSix";
@@ -46,7 +47,7 @@ const Home6 = () => {
       <BlogSix />
       <MapSix />
       <VideoSix />
-      <FooterSix />
+      <FooterSeven />
     </Layout>
   );
 };

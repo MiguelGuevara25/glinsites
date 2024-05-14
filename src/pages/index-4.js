@@ -6,6 +6,7 @@ import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import LiveSectionTwo from "@/components/LiveSection/LiveSectionTwo";
+import FooterSeven from "@/components/MainFooter/FooterSeven";
 import MainFooterTwo from "@/components/MainFooter/MainFooterTwo";
 import NewsSectionTwo from "@/components/NewsSection/NewsSectionTwo";
 import Style from "@/components/Reuseable/Style";
@@ -32,6 +33,7 @@ const Home4 = () => {
         headerStyle="header-style-one header-style-seven"
         autoContainer
         links={false}
+        onePage
       />
       <MobileMenu />
       <BannerSectionFour />
@@ -43,7 +45,7 @@ const Home4 = () => {
       <TestimonialsSectionThree />
       <NewsSectionTwo />
       <CallToSectionThree />
-      <MainFooterTwo />
+      <FooterSeven />
     </Layout>
   );
 };

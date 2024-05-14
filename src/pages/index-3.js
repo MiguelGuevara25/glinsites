@@ -8,6 +8,7 @@ import GetQuoteTwo from "@/components/GetQuote/GetQuoteTwo";
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
+import FooterSeven from "@/components/MainFooter/FooterSeven";
 import MainFooter from "@/components/MainFooter/MainFooter";
 import MapSection from "@/components/MapSection/MapSection";
 import Style from "@/components/Reuseable/Style";
@@ -22,7 +23,7 @@ const Home3 = () => {
   return (
     <Layout pageTitle="Home 03">
       <Style />
-      <HeaderOne headerStyle="header-style-two" logo={4} />
+      <HeaderOne headerStyle="header-style-two" logo={4} onePage />
       <MobileMenu />
       <SearchPopup />
       <BannerThree />
@@ -37,7 +38,7 @@ const Home3 = () => {
       <GetQuoteTwo />
       <MapSection />
       <SponsorsSectionTwo />
-      <MainFooter />
+      <FooterSeven />
     </Layout>
   );
 };

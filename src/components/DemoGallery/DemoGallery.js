@@ -27,7 +27,7 @@ const DemoGallery = () => {
         <div className="sec-title-two text-center">
           <h2>{title}</h2>
         </div>
-        <div className="portfolio-masonary__filter-wrapper mixitup-gallery justify-content-center">
+        {/* <div className="portfolio-masonary__filter-wrapper mixitup-gallery justify-content-center">
           <ul className="filter-btns clearfix filters has-dynamic-filter-counter portfolio-masonary__filters">
             {filters.map(({ id, title, filter }) => (
               <li
@@ -41,7 +41,7 @@ const DemoGallery = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
         <Row className="position-relative filter-list dynamic-filter-count-layout">
           {filteredPortfolios.map((box) => (
             <SingleBox key={box.id} box={box} />

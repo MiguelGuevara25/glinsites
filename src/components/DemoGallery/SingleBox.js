@@ -27,7 +27,7 @@ const SingleBox = ({ box = {}, index }) => {
 
           <div className="portfolio-masonary__box-content">
             <Link href={href}>
-              <a className="link">
+              <a className="link" target="_blank">
                 <i className="flaticon-right-arrow"></i>
               </a>
             </Link>

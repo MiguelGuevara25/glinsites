@@ -5,6 +5,7 @@ import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import FooterFour from "@/components/MainFooter/FooterFour";
+import FooterSeven from "@/components/MainFooter/FooterSeven";
 import Style from "@/components/Reuseable/Style";
 import SponsorsSection from "@/components/SponsorsSection/SponsorsSection";
 import TestimonialsSix from "@/components/TestimonialsSection/TestimonialsSix";
@@ -30,6 +31,7 @@ const Home5 = () => {
         logo={5}
         headerStyle="header-style-one header-style-eight"
         autoContainer
+        onePage
         links={false}
       />
       <MobileMenu />
@@ -38,7 +40,7 @@ const Home5 = () => {
       <TestimonialsSix />
       <SponsorsSection />
       <ContactInfos />
-      <FooterFour />
+      <FooterSeven />
     </Layout>
   );
 };

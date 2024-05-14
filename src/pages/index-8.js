@@ -5,6 +5,7 @@ import HeaderEight from "@/components/Header/HeaderEight";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import FooterEight from "@/components/MainFooter/FooterEight";
+import FooterSeven from "@/components/MainFooter/FooterSeven";
 import BlogEight from "@/components/NewsSection/BlogEight";
 import ProjectEight from "@/components/ProjectSection/ProjectEight";
 import Style from "@/components/Reuseable/Style";
@@ -43,7 +44,7 @@ const Home8 = () => {
       <VideoSeven />
       <BlogEight />
       <SponsorEight />
-      <FooterEight />
+      <FooterSeven />
     </Layout>
   );
 };
