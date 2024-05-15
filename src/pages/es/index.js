@@ -12,6 +12,7 @@ import HeaderOne from "@/components/Header/HeaderOne";
 import BannerOne from "@/components/BannerSection/BannerOne";
 import WhyUs from "@/components/WhyUs/WhyUs";
 import FeaturedSection from "@/components/FeaturedSection/FeaturedSection";
+import DemoGallery from "@/components/DemoGallery/DemoGallery";
 
 const HomeEnglish = () => {
   return (
@@ -34,7 +35,8 @@ const HomeEnglish = () => {
       <BannerOne />
       <FeaturedSection />
       <WhyUs />
-      <NewsSectionTwo />
+      <DemoGallery />
+      {/* <NewsSectionTwo /> */}
       <ContactInfoTwo />
       <FooterSeven />
     </Layout>

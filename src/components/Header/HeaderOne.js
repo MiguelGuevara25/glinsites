@@ -70,6 +70,38 @@ const HeaderOne = ({
     },
   ];
 
+  const changeLanguage = (pathname) => {
+    switch (pathname) {
+      case "/":
+        return (
+          <ul className="list__language">
+            <li>
+              <a href="/es">Spanish</a>
+            </li>
+          </ul>
+        );
+
+      case "/es":
+        return (
+          <ul className="list__language">
+            <li>
+              <a href="/">Inglés</a>
+              
+            </li>
+          </ul>
+        );
+
+      case "/index-3":
+        return (
+          <ul className="list__language">
+            <li>
+              <a href="/es/index-3">Spanish</a>
+            </li>
+          </ul>
+        );
+    }
+  };
+
   const { pathname } = useRouter();
 
   return (
@@ -78,6 +110,29 @@ const HeaderOne = ({
         scrollTop ? " fixed-header" : ""
       } ${headerStyle}`}
     >
+      {topBar && (
+        <div className="topbar-four">
+          <div className="auto-container">
+            <p>{title2}</p>
+            <div className="right-content">
+              <div className="phone">
+                <span className="icon flaticon-call"></span>
+                <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
+              </div>
+              <ul className="list-unstyled social-links">
+                {socials.map(({ id, icon, href }) => (
+                  <li key={id}>
+                    <a href={href}>
+                      <span className={icon}></span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="header-upper">
         <div className={autoContainer ? "inner-container clearfix" : ""}>
           <div
@@ -161,7 +216,7 @@ const HeaderOne = ({
                 <div className="search-btn">
                   <ul>
                     <li>
-                      <a href={pathname === "/es" ? "/" : "/es"}>
+                      <a href={changeLanguage(pathname)}>
                         <button
                           type="button"
                           className="theme-btn search-toggler"
@@ -173,19 +228,7 @@ const HeaderOne = ({
                         </button>
                       </a>
 
-                      {pathname === "/es" ? (
-                        <ul className="list__language">
-                          <li>
-                            <a href="/">Inglés</a>
-                          </li>
-                        </ul>
-                      ) : (
-                        <ul className="list__language">
-                          <li>
-                            <a href="/es">Spanish</a>
-                          </li>
-                        </ul>
-                      )}
+                      {changeLanguage(pathname)}
                     </li>
                   </ul>
                 </div>

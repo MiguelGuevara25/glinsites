@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { Row } from "react-bootstrap";
 import SingleBox from "./SingleBox";
+import { useRouter } from "next/router";
 
 const { title, filters, portfolios } = demoGallery;
 
@@ -21,11 +22,13 @@ const DemoGallery = () => {
   const [currentFilter, setCurrentFilter] = useState("all");
   const filteredPortfolios = getFilteredPortfolios(currentFilter);
 
+  const { pathname } = useRouter();
+  
   return (
     <section className="portfolio-masonary demo-gallery">
       <div className="auto-container">
         <div className="sec-title-two text-center">
-          <h2>{title}</h2>
+          <h2>{pathname === "/es" ? "Demos Pre-contruidos" : title}</h2>
         </div>
         {/* <div className="portfolio-masonary__filter-wrapper mixitup-gallery justify-content-center">
           <ul className="filter-btns clearfix filters has-dynamic-filter-counter portfolio-masonary__filters">

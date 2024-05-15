@@ -3,17 +3,26 @@ import Link from "next/link";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
+import { useRouter } from "next/router";
 
 const { title, discovers } = discoverSection;
 
 const DiscoverSection = ({ ShowTitle = true }) => {
+  const { pathname } = useRouter();
+
   return (
     <section className="discover-section">
       <div className="auto-container">
         {ShowTitle && (
           <div className="sec-title centered">
             <h2>
-              <TextSplit text={title} />
+              <TextSplit
+                text={
+                  pathname === "/index-3"
+                    ? title
+                    : "DESCUBRA EL MUNDO DE LA MEJOR AGENCIA GLINSITES"
+                }
+              />
               <span className="dot">.</span>
             </h2>
           </div>
@@ -32,7 +41,7 @@ const DiscoverSection = ({ ShowTitle = true }) => {
                   <div className="cap-inner">
                     <h5>{title}</h5>
                     <div className="more-link">
-                      <Link href="/about">
+                      <Link href="/">
                         <a>
                           <span className="fa fa-angle-right"></span>
                         </a>

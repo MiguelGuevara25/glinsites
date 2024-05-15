@@ -25,6 +25,36 @@ const services = [
   },
 ];
 
+const servicesSpanish = [
+  {
+    id: 1,
+    icon: "flaticon-vector",
+    title: "Diseño\nmoderno",
+    text: "Lorem ipsum is are many variations of pass of majority",
+  },
+
+  {
+    id: 2,
+    icon: "flaticon-digital",
+    title: "Estrategia de\nmarketing",
+    text: "Lorem ipsum is are many variations of pass of majority",
+  },
+
+  {
+    id: 3,
+    icon: "flaticon-instant-camera",
+    title: "Productos\ndigitales",
+    text: "Lorem ipsum is are many variations of pass of majority",
+  },
+
+  {
+    id: 4,
+    icon: "flaticon-monitor",
+    title: "Desarrollo de\nsitios web",
+    text: "Lorem ipsum is are many variations of pass of majority",
+  },
+];
+
 const servicesSection = {
   title: "LET’S CREATE SOMETHING\ntogether",
   text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.",
@@ -34,6 +64,11 @@ const servicesSection = {
 export const servicesSectionThree = {
   title: "What we’re offering",
   services,
+};
+
+export const serviceSectionThreeSpanish = {
+  titleSpanish: "Qué estamos ofreciendo",
+  servicesSpanish,
 };
 
 export default servicesSection;

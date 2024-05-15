@@ -98,6 +98,27 @@ export const bannerOne = {
       text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
     },
   ],
+
+  bannersTwoSpanish2: [
+    {
+      id: 1,
+      bg: "image-1.jpg",
+      title: "La mejor agencia de marketing",
+      text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+    },
+    {
+      id: 2,
+      bg: "image-1.jpg",
+      title: "Best Digital\nMarketing\nAgency",
+      text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+    },
+    {
+      id: 3,
+      bg: "image-1.jpg",
+      title: "Best Digital\nMarketing\nAgency",
+      text: "We are committed to providing our customers with exceptional service while offering our employees the best training.",
+    },
+  ],
 };
 
 export const bannerOnePage = [

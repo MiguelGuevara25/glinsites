@@ -1,5 +1,6 @@
 import bg from "@/images/background/image-3.jpg";
 import image from "@/images/resource/featured-image-13.jpg";
+import imageSpanish from "@/images/resource/featured-image-13.jpg";
 import image2 from "@/images/update-26-02-2021/resources/feature-2-1.jpg";
 import image3 from "@/images/update-26-02-2021/resources/feature-3-1.jpg";
 
@@ -46,6 +47,29 @@ export const featuresSectionTwo = {
       id: 3,
       title: "Quality designing",
       text: "There are many variations of passages of lorem ipsum majority have suffered.",
+    },
+  ],
+};
+
+export const featuresSectiontwoSpanish = {
+  imageSpanish,
+  titleSpanish: "Todas las características principales",
+  title2Spanish: "Libertad de diseño total para todos",
+  featuresSpanish: [
+    {
+      id: 1,
+      title: "Personal profesional",
+      text: "Hay muchas variaciones de pasajes de lorem ipsum que la mayoría ha sufrido.",
+    },
+    {
+      id: 2,
+      title: "100% de satisfacción",
+      text: "Hay muchas variaciones de pasajes de lorem ipsum que la mayoría ha sufrido.",
+    },
+    {
+      id: 3,
+      title: "Diseño de calidad",
+      text: "Hay muchas variaciones de pasajes de lorem ipsum que la mayoría ha sufrido.",
     },
   ],
 };
