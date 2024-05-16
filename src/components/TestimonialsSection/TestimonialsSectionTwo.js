@@ -30,11 +30,6 @@ const settings = {
 
 const TestimonialsSectionTwo = () => {
   const { pathname } = useRouter();
-  // const { bg, testimonials } =
-  //   pathname === "/es/index-3"
-  //     ? testimonialsSectionTwoSpanish
-  //     : testimonialsSectionTwo;
-
   let bg, testimonials;
 
   switch (pathname) {

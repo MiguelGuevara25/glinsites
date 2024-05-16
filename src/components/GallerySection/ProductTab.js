@@ -100,7 +100,7 @@ const ProductTab = ({ tab = {}, current, carousel = "" }) => {
                     </div>
                     <div className="title">
                       <h5>
-                        <Link href="/portfolio-single">{title}</Link>
+                        <Link href="/">{title}</Link>
                       </h5>
                     </div>
                   </div>

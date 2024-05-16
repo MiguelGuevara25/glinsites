@@ -168,7 +168,7 @@ const HeaderOne = ({
                   }
                   id={autoContainer ? "" : "navbarSupportedContent"}
                 >
-                  {pathname === "/es" ? (
+                  {pathname.split("/")[1] === "es" ? (
                     <ul className="navigation clearfix">
                       {navSpanish.map((navItem) => (
                         <NavItem
@@ -215,7 +215,7 @@ const HeaderOne = ({
                 <div className="search-btn">
                   <ul>
                     <li>
-                      <a href={changeLanguage(pathname)}>
+                      <a>
                         <button
                           type="button"
                           className="theme-btn search-toggler"
@@ -229,7 +229,15 @@ const HeaderOne = ({
 
                       <ul className="list__language">
                         <li>
-                          <a href="/es">Spanish</a>
+                          {pathname.split("/")[1] === "es" ? (
+                            <Link href={`/${pathname.split("/")[2]}`}>
+                              <a>English</a>
+                            </Link>
+                          ) : (
+                            <Link href={`/es/${pathname}`}>
+                              <a>Español</a>
+                            </Link>
+                          )}
                         </li>
                       </ul>
                     </li>

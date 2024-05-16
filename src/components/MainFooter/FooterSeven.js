@@ -32,7 +32,7 @@ const FooterSeven = () => {
             </Col>
 
             <Col md={12} lg={5}>
-              {pathname === "/es" ? (
+              {pathname.split("/")[1] === "es" ? (
                 <div className="footer-seven__widget footer-seven__links">
                   <h3 className="footer-seven__title">Explora</h3>
                   <ul className="list-unstyled footer-seven__links__list">
