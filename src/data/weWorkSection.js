@@ -59,3 +59,65 @@ export const weWorkSection = {
     },
   ],
 };
+
+export const weWorkSectionSpanish = {
+  title: "Trabajamos con industrias",
+  tabBtns: [
+    {
+      id: "tab-1",
+      title: "Tecnología de punta",
+    },
+    {
+      id: "tab-2",
+      title: "Soporte increíble",
+    },
+    {
+      id: "tab-3",
+      title: "Instalación de demostración",
+    },
+  ],
+  tabsContents: [
+    {
+      id: "tab-1",
+      image: "featured-image-14.jpg",
+      text1:
+        "Hay muchas variaciones de pasajes de lorem ipsum disponibles, pero la mayoría ha sufrido alteraciones de alguna forma, por humor inyectado, o palabras aleatorias que no parecen ni siquiera ligeramente creíbles.",
+      text2:
+        "Si vas a usar un pasaje de Lorem Ipsum, debes estar seguro de que no hay nada embarazoso oculto en medio del texto.",
+      lists: [
+        "Reloj de tiempo autocontenido y de última generación",
+        "Escalabilidad de hasta 500 empleados por reloj de tiempo",
+        "La capacidad de conectar hasta 32 relojes de tiempo",
+        "Autoinscripción de empleados",
+      ],
+    },
+    {
+      id: "tab-2",
+      image: "featured-image-14.jpg",
+      text1:
+        "Hay muchas variaciones de pasajes de lorem ipsum disponibles, pero la mayoría ha sufrido alteraciones de alguna forma, por humor inyectado, o palabras aleatorias que no parecen ni siquiera ligeramente creíbles.",
+      text2:
+        "Si vas a usar un pasaje de Lorem Ipsum, debes estar seguro de que no hay nada embarazoso oculto en medio del texto.",
+      lists: [
+        "Reloj de tiempo autocontenido y de última generación",
+        "Escalabilidad de hasta 500 empleados por reloj de tiempo",
+        "La capacidad de conectar hasta 32 relojes de tiempo",
+        "Autoinscripción de empleados",
+      ],
+    },
+    {
+      id: "tab-3",
+      image: "featured-image-14.jpg",
+      text1:
+        "Hay muchas variaciones de pasajes de lorem ipsum disponibles, pero la mayoría ha sufrido alteraciones de alguna forma, por humor inyectado, o palabras aleatorias que no parecen ni siquiera ligeramente creíbles.",
+      text2:
+        "Si vas a usar un pasaje de Lorem Ipsum, debes estar seguro de que no hay nada embarazoso oculto en medio del texto.",
+      lists: [
+        "Reloj de tiempo autocontenido y de última generación",
+        "Escalabilidad de hasta 500 empleados por reloj de tiempo",
+        "La capacidad de conectar hasta 32 relojes de tiempo",
+        "Autoinscripción de empleados",
+      ],
+    },
+  ],
+};

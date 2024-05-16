@@ -39,6 +39,17 @@ export const aboutSectionTwo = {
   since: "2008",
 };
 
+export const aboutSectionTwoSpanish = {
+  image: image3,
+  title: "Somos expertos\ndestacados en negocios",
+  text: "Creemos que el éxito se logra a través de una interacción altamente colaborativa, para que podamos trabajar juntos para identificar y evaluar oportunidades más allá de sus operaciones actuales.",
+  counters: [
+    { id: 1, percent: 90, title: "Servicios\nde calidad" },
+    { id: 2, percent: 50, title: " Empleado\nCalificado" },
+  ],
+  since: "2008",
+}
+
 export const aboutSectionThree = {
   image: image4,
   title: "The Right People for your Business",

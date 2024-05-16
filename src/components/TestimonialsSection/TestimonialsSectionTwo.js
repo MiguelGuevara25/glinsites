@@ -1,7 +1,11 @@
-import { testimonialsSectionTwo } from "@/data/testimonialsSection";
+import {
+  testimonialsSectionTwo,
+  testimonialsSectionTwoSpanish,
+} from "@/data/testimonialsSection";
 import dynamic from "next/dynamic";
 import React, { useRef } from "react";
 import JarallaxImage from "../Jarallax/JarallaxImage";
+import { useRouter } from "next/router";
 const Jarallax = dynamic(() => import("../Jarallax/Jarallax"), { ssr: false });
 
 const TinySlider = dynamic(() => import("@/components/TinySlider/TinySlider"), {
@@ -24,9 +28,25 @@ const settings = {
   autoplayButtonOutput: false,
 };
 
-const { bg, testimonials } = testimonialsSectionTwo;
-
 const TestimonialsSectionTwo = () => {
+  const { pathname } = useRouter();
+  // const { bg, testimonials } =
+  //   pathname === "/es/index-3"
+  //     ? testimonialsSectionTwoSpanish
+  //     : testimonialsSectionTwo;
+
+  let bg, testimonials;
+
+  switch (pathname) {
+    case "/es/index-3":
+      ({ bg, testimonials } = testimonialsSectionTwoSpanish);
+      break;
+
+    default:
+      ({ bg, testimonials } = testimonialsSectionTwo);
+      break;
+  }
+
   const listRef = useRef(null);
 
   return (

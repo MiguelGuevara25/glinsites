@@ -1,10 +1,23 @@
-import gallerySection from "@/data/gallerySection";
+import gallerySection, { gallerySectionSpanish } from "@/data/gallerySection";
 import React, { useState } from "react";
 import ProductTab from "./ProductTab";
-
-const { title, tabBtns, pTabs, pTabs2 } = gallerySection;
+import { useRouter } from "next/router";
 
 const GallerySection = ({ className = "", carousel = "" }) => {
+  const { pathname } = useRouter();
+  // const { title, tabBtns, pTabs, pTabs2 } = gallerySection;
+
+  let title, tabBtns, pTabs, pTabs2;
+  switch (pathname) {
+    case "/es/index-3":
+      ({ title, tabBtns, pTabs, pTabs2 } = gallerySectionSpanish);
+      break;
+
+    default:
+      ({ title, tabBtns, pTabs, pTabs2 } = gallerySection);
+      break;
+  }
+
   const [current, setCurrent] = useState("p-tab-1");
   const newPTabs = carousel ? pTabs2 : pTabs;
 

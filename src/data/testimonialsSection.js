@@ -77,6 +77,33 @@ export const testimonialsSectionTwo = {
   ],
 };
 
+export const testimonialsSectionTwoSpanish = {
+  bg,
+  testimonials: [
+    {
+      id: 1,
+      text: "Esto se debe a su excelente servicio, precios competitivos y atención al cliente. Es muy reconfortante recibir un trato tan personal.",
+      name: "Christine Eve",
+    },
+
+    {
+      id: 2,
+      text: "Esto se debe a su excelente servicio, precios competitivos y atención al cliente. Es muy reconfortante recibir un trato tan personal.",
+      name: "Christine Eve",
+    },
+    {
+      id: 3,
+      text: "Esto se debe a su excelente servicio, precios competitivos y atención al cliente. Es muy reconfortante recibir un trato tan personal.",
+      name: "Christine Eve",
+    },
+    {
+      id: 4,
+      text: "Esto se debe a su excelente servicio, precios competitivos y atención al cliente. Es muy reconfortante recibir un trato tan personal.",
+      name: "Christine Eve",
+    }
+  ]
+}
+
 export const testimonialsSectionThree = {
   tagline: "Client Testimonials",
   title: "What They’re Saying",

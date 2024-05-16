@@ -1,10 +1,13 @@
-import { weWorkSection } from "@/data/weWorkSection";
+import { weWorkSection, weWorkSectionSpanish } from "@/data/weWorkSection";
 import React, { useState } from "react";
 import SingleWeWork from "./SingleWeWork";
-
-const { title, tabBtns, tabsContents } = weWorkSection;
+import { useRouter } from "next/router";
 
 const WeWorkSection = () => {
+  const { pathname } = useRouter();
+  const { title, tabBtns, tabsContents } =
+    pathname === "/es/index-3" ? weWorkSectionSpanish : weWorkSection;
+
   const [current, setCurrent] = useState("tab-1");
 
   return (
