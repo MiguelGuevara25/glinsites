@@ -37,6 +37,45 @@ const allPricing = [
   },
 ];
 
+const allPricingSpanish = [
+  {
+    id: 1,
+    amount: "20.00",
+    name: "paquete básico",
+    features: [
+      "Características adicionales",
+      "Soporte gratuito de por vida",
+      "Opciones de actualización",
+      "Acceso completo",
+    ],
+    tagline: "¡Sin cargos ocultos!",
+  },
+  {
+    id: 2,
+    amount: "30.00",
+    name: "paquete medio",
+    features: [
+      "Características adicionales",
+      "Soporte gratuito de por vida",
+      "Opciones de actualización",
+      "Acceso completo",
+    ],
+    tagline: "¡Sin cargos ocultos!",
+  },
+  {
+    id: 3,
+    amount: "40.00",
+    name: "paquete premium",
+    features: [
+      "Características adicionales",
+      "Soporte gratuito de por vida",
+      "Opciones de actualización",
+      "Acceso completo",
+    ],
+    tagline: "¡Sin cargos ocultos!",
+  },
+];
+
 const allPricing2 = [
   {
     id: 1,
@@ -84,6 +123,21 @@ export const pricingTwo = [
     name: "Annually",
     className: "year",
     allPricing,
+  },
+];
+
+export const pricingTwoSpanish = [
+  {
+    id: 1,
+    name: "Mensual",
+    className: "month",
+    allPricingSpanish,
+  },
+  {
+    id: 2,
+    name: "Anual",
+    className: "year",
+    allPricingSpanish,
   },
 ];
 

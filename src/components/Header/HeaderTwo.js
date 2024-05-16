@@ -5,12 +5,14 @@ import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 import NavItem from "./NavItem";
+import { useRouter } from "next/router";
 
 const { navItemsTwo, title, logo7 } = headerData;
 
 const HeaderTwo = ({ headerStyle = "mainmenu-six", header = 6 }) => {
   const { scrollTop } = useScroll(120);
   const { toggleSearch, toggleMenu } = useRootContext();
+  const { pathname } = useRouter();
 
   return (
     <nav
@@ -62,13 +64,32 @@ const HeaderTwo = ({ headerStyle = "mainmenu-six", header = 6 }) => {
             header === 7 && (
               <div className="mainmenu-seven__right">
                 <div className="search-btn mainmenu-seven__search">
-                  <button
-                    onClick={toggleSearch}
-                    type="button"
-                    className="theme-btn search-toggler"
-                  >
-                    <span className="flaticon-magnifying-glass"></span>
-                  </button>
+                  <ul>
+                    <li>
+                      <a>
+                        <button
+                          type="button"
+                          className="theme-btn search-toggler"
+                        >
+                          <span className="flaticon-worldwide"></span>
+                        </button>
+                      </a>
+
+                      <ul className="list__language__1">
+                        <li>
+                          {pathname.split("/")[1] === "es" ? (
+                            <Link href={`/${pathname.split("/")[2]}`}>
+                              <a>English</a>
+                            </Link>
+                          ) : (
+                            <Link href={`/es/${pathname}`}>
+                              <a>Español</a>
+                            </Link>
+                          )}
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
                 </div>
                 <div
                   onClick={toggleMenu}

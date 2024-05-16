@@ -23,6 +23,11 @@ export const sponsorsSectionTwo = {
   images: [image, image, image, image, image],
 };
 
+export const sponsorsSectionTwoSpanish = {
+  title: "Algunos de los clientes con los que hemos trabajado",
+  images: [image, image, image, image, image],
+};
+
 export const sponsorsSectionThree = [
   image2,
   image2,

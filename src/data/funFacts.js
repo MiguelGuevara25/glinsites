@@ -79,3 +79,26 @@ export const funFactSeven = [
     text: "awards",
   },
 ];
+
+export const funFactSevenSpanish = [
+  {
+    id: 1,
+    count: 4789,
+    text: "proyectos",
+  },
+  {
+    id: 2,
+    count: 6400,
+    text: "clientes",
+  },
+  {
+    id: 3,
+    count: 960,
+    text: "éxito",
+  },
+  {
+    id: 4,
+    count: 378,
+    text: "premios",
+  },
+];

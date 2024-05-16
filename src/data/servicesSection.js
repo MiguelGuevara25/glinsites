@@ -180,6 +180,40 @@ export const serviceSeven = [
   },
 ];
 
+export const serviceSevenSpanish = [
+  {
+    id: 1,
+    icon: "flaticon-laptop",
+    href: "/digital-marketing",
+    title: "Optimización de\nvelocidad",
+    text: "Lorem ipsum is are many variations of pass of majority",
+  },
+
+  {
+    id: 2,
+    icon: "flaticon-presentation",
+    href: "/digital-marketing",
+    title: "Análisis de\nmarketing",
+    text: "Lorem ipsum is are many variations of pass of majority",
+  },
+
+  {
+    id: 3,
+    icon: "flaticon-target",
+    href: "/digital-marketing",
+    title: "SEO y más\nbacklinks",
+    text: "Lorem ipsum is are many variations of pass of majority",
+  },
+
+  {
+    id: 4,
+    icon: "flaticon-visualization",
+    href: "/digital-marketing",
+    title: "Marketing de\ncontenido",
+    text: "Lorem ipsum is are many variations of pass of majority",
+  },
+]
+
 export const serviceEight = {
   text: "Our Services List",
   title: "What We’re Offering",

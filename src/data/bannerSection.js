@@ -153,6 +153,21 @@ export const bannerSectionFour = [
   },
 ];
 
+export const bannerSectionFourSpanish = [
+  {
+    id: 1,
+    bg: "main-slider-1-1.jpg",
+    title: "Combinamos tecnología con negocios",
+    text: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia \n deserunt mollit anim id est laborum.",
+  },
+  {
+    id: 2,
+    bg: "main-slider-1-2.jpg",
+    title: "Combinamos tecnología con negocios",
+    text: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia \n deserunt mollit anim id est laborum.",
+  },
+];
+
 export const bannerFour = {
   dayRange: "mon - fri",
   timeRange: "9:00 am - 7:00 pm",

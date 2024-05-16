@@ -128,6 +128,36 @@ export const projectSeven = [
   },
 ];
 
+export const projectSevenSpanish = [
+  {
+    id: 1,
+    image: "project-2-1.jpg",
+    title: "Marketing Web",
+    category: "SEO, Marketing",
+  },
+
+  {
+    id: 2,
+    image: "project-2-2.jpg",
+    title: "Marketing Web",
+    category: "SEO, Marketing",
+  },
+
+  {
+    id: 3,
+    image: "project-2-3.jpg",
+    title: "Marketing Web",
+    category: "SEO, Marketing",
+  },
+
+  {
+    id: 4,
+    image: "project-2-4.jpg",
+    title: "Marketing Web",
+    category: "SEO, Marketing",
+  },
+];
+
 export const projectEight = {
   tagline: "Recent Cases",
   title: "New Case Studies",

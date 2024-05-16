@@ -243,6 +243,34 @@ export const blogSeven = [
   },
 ];
 
+export const blogSevenSpanish = [
+  {
+    id: 1,
+    image: "blog-2-1.jpg",
+    date: "20 Aug, 2021",
+    admin: "Admin",
+    comments: 2,
+    title: "Están creando un beneficio a través de los negocios predictivos",
+  },
+  {
+    id: 2,
+    image: "blog-2-2.jpg",
+    date: "20 Aug, 2021",
+    admin: "Admin",
+    comments: 2,
+    title:
+      "Aporte estrategias de supervivencia para garantizar proactivo",
+  },
+  {
+    id: 3,
+    image: "blog-2-3.jpg",
+    date: "20 Aug, 2021",
+    admin: "Admin",
+    comments: 2,
+    title: "Anular la brecha digital con clics adicionales",
+  },
+];
+
 export const blogEight = {
   tagline: "From the Blog",
   title: "News & Articles",

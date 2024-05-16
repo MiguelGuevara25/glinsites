@@ -1,10 +1,26 @@
-import { sponsorsSectionTwo } from "@/data/sponsorsSection";
+import {
+  sponsorsSectionTwo,
+  sponsorsSectionTwoSpanish,
+} from "@/data/sponsorsSection";
+import { useRouter } from "next/router";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { title, images } = sponsorsSectionTwo;
-
 const SponsorsSectionTwo = () => {
+  let title, images;
+
+  const { pathname } = useRouter();
+
+  switch (pathname.split("/")[1]) {
+    case "es":
+      ({ title, images } = sponsorsSectionTwoSpanish);
+      break;
+
+    default:
+      ({ title, images } = sponsorsSectionTwo);
+      break;
+  }
+
   return (
     <section className="sponsors-section-two">
       <div className="auto-container">

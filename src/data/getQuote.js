@@ -64,6 +64,40 @@ export const getQuoteTwo = {
   ],
 };
 
+export const getQuoteTwoSpanish = {
+  title: "Siempre estamos aquí para ayudarte",
+  text: "Hay muchas variantes de pasajes la mayoría han sufrido alteración en alguna forma randomizada palabras creíbles.",
+  address: "66 Broklyn Street, New York. USA",
+  email: "maxicarrion07@gmail.com",
+  phone: "+1 (631)256-0214",
+  inputs: [
+    {
+      type: "text",
+      name: "username",
+      placeholder: "Tu Nombre",
+    },
+    {
+      type: "email",
+      name: "email",
+      placeholder: "Correo Electrónico",
+    },
+    {
+      type: "text",
+      name: "phone",
+      placeholder: "Número de Teléfono",
+    },
+    {
+      type: "text",
+      name: "subject",
+      placeholder: "Tema",
+    },
+    {
+      name: "message",
+      placeholder: "Escribe Mensaje",
+    },
+  ],
+}
+
 export const getQuoteThree = {
   title: "Still stuck ask directly",
   inputs: [

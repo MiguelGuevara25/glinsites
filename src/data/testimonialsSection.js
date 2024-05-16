@@ -198,6 +198,56 @@ export const testimonialsSeven = [
   },
 ];
 
+export const testimonialsSevenSpanish = [
+  {
+    id: 1,
+    image: "testi-1-1.jpg",
+    name: "Mathilda Bishop",
+    designation: "Cliente",
+    text: "Lorem ipsum es simplemente texto gratuito dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore texto.",
+  },
+
+  {
+    id: 2,
+    image: "testi-1-2.jpg",
+    name: "Mathilda Bishop",
+    designation: "Cliente",
+    text: "Lorem ipsum es simplemente texto gratuito dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore texto.",
+  },
+
+  {
+    id: 3,
+    image: "testi-1-3.jpg",
+    name: "Mathilda Bishop",
+    designation: "Cliente",
+    text: "Lorem ipsum es simplemente texto gratuito dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore texto.",
+  },
+
+  {
+    id: 4,
+    image: "testi-1-1.jpg",
+    name: "Mathilda Bishop",
+    designation: "Cliente",
+    text: "Lorem ipsum es simplemente texto gratuito dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore texto.",
+  },
+
+  {
+    id: 5,
+    image: "testi-1-2.jpg",
+    name: "Mathilda Bishop",
+    designation: "Cliente",
+    text: "Lorem ipsum es simplemente texto gratuito dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore texto.",
+  },
+
+  {
+    id: 6,
+    image: "testi-1-3.jpg",
+    name: "Mathilda Bishop",
+    designation: "Cliente",
+    text: "Lorem ipsum es simplemente texto gratuito dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore texto.",
+  },
+]
+
 export const testimonialsEight = {
   tagline: "Customers Feedbacks",
   title: "What They’re Saying",

@@ -86,7 +86,6 @@ const HeaderOne = ({
           <ul className="list__language">
             <li>
               <a href="/">Inglés</a>
-              
             </li>
           </ul>
         );
@@ -228,7 +227,11 @@ const HeaderOne = ({
                         </button>
                       </a>
 
-                      {changeLanguage(pathname)}
+                      <ul className="list__language">
+                        <li>
+                          <a href="/es">Spanish</a>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </div>

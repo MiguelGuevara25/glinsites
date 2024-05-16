@@ -48,7 +48,7 @@ export const aboutSectionTwoSpanish = {
     { id: 2, percent: 50, title: " Empleado\nCalificado" },
   ],
   since: "2008",
-}
+};
 
 export const aboutSectionThree = {
   image: image4,
@@ -115,6 +115,19 @@ export const aboutNine = {
   ],
 };
 
+export const aboutNineSpanish = {
+  image: image9,
+  icon: "flaticon-data",
+  title: "Herramientas poderosas para sus clientes",
+  titleHighlight: "Herramientas",
+  text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  lists: [
+    "Refrescante obtener un toque tan personal.",
+    "Duis aute irure dolor in reprehenderit in voluptate.",
+    "Velit esse cillum dolore eu fugiat nulla pariatur.",
+  ],
+};
+
 export const aboutEight = {
   image: image10,
   icon: "flaticon-data",
@@ -130,6 +143,26 @@ export const aboutEight = {
     {
       id: 2,
       text: "SEO Optimization",
+      count: 89,
+    },
+  ],
+};
+
+export const aboutEightSpanish = {
+  image: image10,
+  icon: "flaticon-data",
+  title: "Controla todo desde una solución",
+  titleHighlight: "todo",
+  text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sombrero de piel y boa de piel que se sentó erguida, levantando un pesado manguito de piel que la cubría.",
+  progresses: [
+    {
+      id: 1,
+      text: "Marketing",
+      count: 77,
+    },
+    {
+      id: 2,
+      text: "Optimización de SEO",
       count: 89,
     },
   ],

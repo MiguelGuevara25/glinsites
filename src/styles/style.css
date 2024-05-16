@@ -88,7 +88,7 @@
 :root {
   --thm-font: "Teko", sans-serif;
   --thm-b-font: "Rubik", sans-serif;
-  --thm-base: #004D80;
+  --thm-base: #004d80;
   --thm-base-rgb: 255, 170, 23;
   --thm-black: #222429;
   --thm-text: #686a6f;
@@ -13541,7 +13541,7 @@ img.lazy-image.loaded {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 77, 128, .9);
+  background-color: rgba(0, 77, 128, 0.9);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24144,10 +24144,26 @@ img.lazy-image.loaded {
   transition: opacity 0.3s ease;
 }
 
+.list__language__1 {
+  display: none;
+  position: absolute;
+  right: 0%;
+  top: 40px;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  opacity: 0; /* Inicialmente invisible */
+  transition: opacity 0.3s ease;
+}
+
 .list__language li {
   display: block;
   padding: 10px 20px;
   color: #333;
+}
+
+.list__language__1 li {
+  padding: 10px 20px;
+  display: block;
 }
 
 .list__language li:hover {
@@ -24163,12 +24179,17 @@ img.lazy-image.loaded {
   opacity: 1;
 }
 
+.search-btn:hover .list__language__1 {
+  display: block;
+  opacity: 1;
+}
+
 .imagen__effect__principal {
   -webkit-animation: fadeIn 1.3s ease;
   animation: fadeIn 1.3s ease;
 }
 
-.titulo__effect__principal{
+.titulo__effect__principal {
   -webkit-animation: otroEfecto 1.3s ease;
   animation: otroEfecto 1.3s ease;
 }

@@ -1,10 +1,12 @@
-import { aboutNine } from "@/data/aboutSection";
+import { aboutNine, aboutNineSpanish } from "@/data/aboutSection";
+import { useRouter } from "next/router";
 import React, { Fragment } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { image, icon, title, titleHighlight, text, lists } = aboutNine;
-
 const AboutNine = () => {
+  const { pathname } = useRouter();
+  const { image, icon, title, titleHighlight, text, lists } =
+    pathname.split("/")[1] === "es" ? aboutNineSpanish : aboutNine;
   return (
     <section className="about-nine">
       <div className="auto-container">
@@ -37,7 +39,7 @@ const AboutNine = () => {
               </ul>
 
               <a href="#" className="about-nine__btn thm-btn__seven">
-                Get Started
+                {pathname.split("/")[1] === "es" ? "Empezar" : "Get Started"}
               </a>
             </div>
           </Col>

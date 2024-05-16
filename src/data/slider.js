@@ -30,6 +30,23 @@ export const sliderSeven = [
   },
 ];
 
+export const sliderSevenSpanish = [
+  {
+    id: 1,
+    bg: "slider-seven-1-1.jpg",
+    title: "Entregamos los enlaces de Seo de calidad.",
+    titleHighlight: "Seo",
+    text: "Estamos comprometidos a proporcionar a los clientes un servicio excepcional ofreciendo a los empleados la mejor capacitación.",
+  },
+  {
+    id: 2,
+    bg: "slider-seven-1-2.jpg",
+    title: "Entregamos los enlaces de Seo de calidad.",
+    titleHighlight: "Seo",
+    text: "Estamos comprometidos a proporcionar a los clientes un servicio excepcional ofreciendo a los empleados la mejor capacitación.",
+  },
+];
+
 export const sliderEight = [
   {
     id: 1,

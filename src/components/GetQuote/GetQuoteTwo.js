@@ -1,11 +1,24 @@
-import { getQuoteTwo } from "@/data/getQuote";
+import { getQuoteTwo, getQuoteTwoSpanish } from "@/data/getQuote";
+import { useRouter } from "next/router";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 
-const { title, text, address, email, phone, inputs } = getQuoteTwo;
-
 const GetQuoteTwo = ({ className = "" }) => {
+  let title, text, address, email, phone, inputs;
+
+  const { pathname } = useRouter();
+
+  switch (pathname.split("/")[1]) {
+    case "es":
+      ({ title, text, address, email, phone, inputs } = getQuoteTwoSpanish);
+      break;
+
+    default:
+      ({ title, text, address, email, phone, inputs } = getQuoteTwo);
+      break;
+  }
+
   const {
     register,
     handleSubmit,
