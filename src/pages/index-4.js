@@ -43,7 +43,7 @@ const Home4 = () => {
       <LiveSectionTwo />
       <SponsorsSectionThree />
       <TestimonialsSectionThree />
-      <NewsSectionTwo />
+      {/* <NewsSectionTwo /> */}
       <CallToSectionThree />
       <FooterSeven />
     </Layout>
