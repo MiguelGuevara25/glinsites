@@ -56,7 +56,7 @@ export const mainFooter = {
   address3: "66 Mark Street, New Town DC 5752, Lo New York",
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
-  phone: "+1 (631)256-0214",
+  phone: "+1 (631) 356-0214",
   phone2: "+92 3333 222 000",
   email: "maxicarrion07@gmail.com",
   textBottom:

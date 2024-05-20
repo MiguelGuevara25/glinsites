@@ -5,7 +5,7 @@ const CallToSectionFour = () => {
     <section className="call-to-section-four">
       <div className="auto-container">
         <h3 className="call-to-section-four__title">
-          Linoor Finance & Consultation HTML Template
+          Glinsites Finance & Consultation HTML Template
         </h3>
         <a
           href="https://themeforest.net/item/linoor-digital-agency-services-html-template/27318759?s_rank=2"

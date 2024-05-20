@@ -39,7 +39,7 @@ const Home5 = () => {
       <BrandPortfolio />
       <TestimonialsSix />
       <SponsorsSection />
-      <ContactInfos />
+      {/* <ContactInfos /> */}
       <FooterSeven />
     </Layout>
   );

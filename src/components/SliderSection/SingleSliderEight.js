@@ -1,5 +1,3 @@
-import React from "react";
-
 const SingleSliderEight = ({ slide = {} }) => {
   const { bg, text, title } = slide;
 

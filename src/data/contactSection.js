@@ -89,7 +89,7 @@ export const contactInfoTwo = [
   {
     id: 3,
     icon: "fa fa-phone",
-    text: "+1 (631)256-0214",
+    text: "+1 (631) 356-0214",
     phone: true,
   },
 ];
