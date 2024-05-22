@@ -70,32 +70,57 @@ const HeaderOne = ({
     },
   ];
 
-  const changeLanguage = (pathname) => {
-    switch (pathname) {
+  const navDemo = [
+    {
+      id: 1,
+      name: "Home",
+      href: "/",
+    },
+  ];
+
+  const navDemoSpanish = [
+    {
+      id: 1,
+      name: "Inicio",
+      href: "/",
+    },
+  ];
+
+  const changeHref = (pathname) => {
+    switch (pathname.split("-")[0]) {
       case "/":
         return (
-          <ul className="list__language">
-            <li>
-              <a href="/es">Spanish</a>
-            </li>
+          <ul className="navigation clearfix">
+            {newNavItems.map((navItem) => (
+              <NavItem navItem={navItem} key={navItem.id} onePage={onePage} />
+            ))}
           </ul>
         );
 
       case "/es":
         return (
-          <ul className="list__language">
-            <li>
-              <a href="/">Inglés</a>
-            </li>
+          <ul className="navigation clearfix">
+            {navSpanish.map((navItem) => (
+              <NavItem navItem={navItem} key={navItem.id} onePage={onePage} />
+            ))}
           </ul>
         );
 
-      case "/index-3":
+      case "/index":
         return (
-          <ul className="list__language">
-            <li>
-              <a href="/es/index-3">Spanish</a>
-            </li>
+          <ul className="navigation clearfix">
+            {navDemo.map((navItem) => (
+              <NavItem navItem={navItem} key={navItem.id} onePage={onePage} />
+            ))}
+          </ul>
+        );
+
+      case "/es/index":
+        return (
+          <ul className="navigation clearfix">
+            {navDemoSpanish.map((navItem) => (
+              <NavItem navItem={navItem} key={navItem.id} onePage={onePage} />
+            ))}
           </ul>
         );
     }
@@ -168,27 +193,9 @@ const HeaderOne = ({
                   }
                   id={autoContainer ? "" : "navbarSupportedContent"}
                 >
-                  {pathname.split("/")[1] === "es" ? (
-                    <ul className="navigation clearfix">
-                      {navSpanish.map((navItem) => (
-                        <NavItem
-                          navItem={navItem}
-                          key={navItem.id}
-                          onePage={onePage}
-                        />
-                      ))}
-                    </ul>
-                  ) : (
-                    <ul className="navigation clearfix">
-                      {newNavItems.map((navItem) => (
-                        <NavItem
-                          navItem={navItem}
-                          key={navItem.id}
-                          onePage={onePage}
-                        />
-                      ))}
-                    </ul>
-                  )}
+
+                  {changeHref(pathname)}
+
                   {/* <ul className="navigation clearfix">
                     {newNavItems.map((navItem) => (
                       <NavItem
