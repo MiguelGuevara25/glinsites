@@ -18,7 +18,6 @@ const Home = () => {
   return (
     <Layout pageTitle="Home">
       <Style
-        // font="Rubik, sans-serif"
         bFont="Rubik, sans-serif"
         black="#2a2833"
         text="#74727a"
@@ -27,16 +26,13 @@ const Home = () => {
         scrollToTopColor="#fff"
         blackRgb="42, 40, 51"
       />
-      {/* <HeaderTwo headerStyle="mainmenu-seven" header={7} /> */}
       <HeaderOne headerStyle="header-style-two" logo={4} onePage />
       <MobileMenu onePage />
       <SearchPopup />
-      {/* <SliderSeven /> */}
       <BannerOne />
       <FeaturedSection />
       <WhyUs />
       <DemoGallery />
-      {/* <NewsSectionTwo /> */}
       <ContactInfoTwo />
       <FooterSeven />
     </Layout>

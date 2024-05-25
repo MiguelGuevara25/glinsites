@@ -1,7 +1,4 @@
-import Link from "next/link";
 import React, { forwardRef } from "react";
-import TextSplit from "../Reuseable/TextSplit";
-// import nose from "../../../public/images/sliderPrincipal.png"
 import photoSlide from "../../../public/images/sliderPrincipal.jpeg";
 import photoSlideEffect from "../../../public/images/logoGlinsiteHorizontalBlanco.png";
 import { useRouter } from "next/router";

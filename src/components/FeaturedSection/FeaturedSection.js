@@ -1,12 +1,12 @@
 import featuredSection from "@/data/featuredSection";
 import { useRouter } from "next/router";
-import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
 const { image, title, text, features } = featuredSection;
 
 const FeaturedSection = ({ className = "" }) => {
   const { pathname } = useRouter();
+
   const titleEnglish = "Welcome to glinsites";
   const textEnglish =
     "In a world where digital presence is vital, we offer you the key to online success. We are a passionate team of web developers, experts in turning ideas into exceptional digital experiences. From conceptualization to implementation, our experience and creativity combine to bring your web projects to life. Whether you need an elegant and functional website or a complex custom platform, we are here to make it happen. Let us take you by the hand on this exciting digital journey. Your vision, our passion. Together, let's make your online presence stand out. Start your journey with us today!";
@@ -21,7 +21,7 @@ const FeaturedSection = ({ className = "" }) => {
           <Col lg={6} md={12} sm={12} className="left-col">
             <div className="inner animated fadeInLeft">
               <div className="image-box">
-                <Image src={image.src} alt="" />
+                <Image style={{height: "350px"}} src={image.src} alt="" />
               </div>
             </div>
           </Col>

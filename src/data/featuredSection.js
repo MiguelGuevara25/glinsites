@@ -1,4 +1,4 @@
-import image from "@/images/resource/featured-image-7.jpg";
+import image from "../../public/images/gestos.webp";
 
 const featuredSection = {
   image,
