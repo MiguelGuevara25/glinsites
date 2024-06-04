@@ -60,7 +60,7 @@ const FooterSeven = () => {
             <Col md={12} lg={2}>
               <div className="footer-seven__widget footer-seven__social">
                 {socials.map(({ id, icon, href }) => (
-                  <a href={href} key={id} className={icon}></a>
+                  <a href={href} key={id} className={icon} target="_blank"></a>
                 ))}
               </div>
             </Col>

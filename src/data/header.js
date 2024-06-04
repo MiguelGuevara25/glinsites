@@ -145,7 +145,7 @@ export const socials = [
   {
     id: 3,
     icon: "fab fa-instagram",
-    href: "#",
+    href: "https://www.instagram.com/glinsites/",
   },
 ];
 
@@ -168,7 +168,7 @@ const headerData = {
   address: "Suite 20 Golden Street USA",
   phone: "+1 (631)256-0214",
   phone2: "+ 92 666 888 0000",
-  email: "maxicarrion07@gmail.com",
+  email: "glinsites@gmail.com",
   icon,
   socials,
   text: "",

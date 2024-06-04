@@ -58,7 +58,7 @@ export const mainFooter = {
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
   phone: "+1 (631) 356-0214",
   phone2: "+92 3333 222 000",
-  email: "maxicarrion07@gmail.com",
+  email: "glinsites@gmail.com",
   textBottom:
     "Sign up for our latest news & articles. We won’t give you spam mails.",
   subscribeText:
@@ -76,7 +76,7 @@ export const mainFooter = {
     // },
     {
       id: 3,
-      href: "#",
+      href: "https://www.instagram.com/glinsites/",
       icon: "fab fa-instagram",
     },
     // {

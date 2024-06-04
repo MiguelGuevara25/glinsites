@@ -68,7 +68,7 @@ export const getQuoteTwoSpanish = {
   title: "Siempre estamos aquí para ayudarte",
   text: "Hay muchas variantes de pasajes la mayoría han sufrido alteración en alguna forma randomizada palabras creíbles.",
   address: "66 Broklyn Street, New York. USA",
-  email: "maxicarrion07@gmail.com",
+  email: "glinsites@gmail.com",
   phone: "+1 (631)256-0214",
   inputs: [
     {

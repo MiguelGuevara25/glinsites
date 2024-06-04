@@ -50,7 +50,7 @@ const MobileMenu = ({ onePage = false }) => {
           </p>
           <div className="side-menu__social">
             {socials.map(({ id, icon, href }) => (
-              <a key={id} href={href}>
+              <a key={id} href={href} target="_blank">
                 <i className={icon}></i>
               </a>
             ))}

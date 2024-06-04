@@ -146,7 +146,7 @@ const HeaderOne = ({
               <ul className="list-unstyled social-links">
                 {socials.map(({ id, icon, href }) => (
                   <li key={id}>
-                    <a href={href}>
+                    <a href={href} target="_blank">
                       <span className={icon}></span>
                     </a>
                   </li>

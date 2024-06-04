@@ -192,7 +192,7 @@ export const bannerFour = {
     {
       id: 4,
       icon: "fab fa-instagram",
-      href: "#",
+      href: "https://www.instagram.com/glinsites/",
     },
   ],
 };
